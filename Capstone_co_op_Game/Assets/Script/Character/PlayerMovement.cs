@@ -5,11 +5,14 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed;  //movement speed
-    //float h, v;  //horizontal, vertical input
+    [SerializeField] private float speed;
     Vector3 input;
-    //Rigidbody body; //rigidbody
     private PlayerCharacter controls; //control
+
+    [SerializeField] private PlayerInput playerInput = null;
+    [SerializeField] private CharacterController controller = null;
+
+    public PlayerInput _playerInput => playerInput;
 
     // Start is called before the first frame update
     void Awake() {
@@ -36,12 +39,17 @@ public class PlayerMovement : MonoBehaviour
         // v = Input.GetAxisRaw("Vertical");
         Vector2 inputx = controls.Player.Move.ReadValue<Vector2>();
         Vector3 input = new Vector3(inputx.x, 0, inputx.y).normalized;
-        Debug.Log(input);
+        //Debug.Log(input);
 
         var movement = new InputAction();
 
         //input = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));  //keybinding later...
         transform.LookAt(transform.position + input);
         transform.position = transform.position + (input * Time.deltaTime * speed);
+
+        if (controls.Player.Fire.IsPressed())
+        {
+            Debug.Log("Fire");
+        }
     }
 }
