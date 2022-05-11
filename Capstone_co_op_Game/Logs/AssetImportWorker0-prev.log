@@ -15,11 +15,11 @@ D:/UnityNew/CapstoneDesign/Capstone_co_op_Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-7647
+5008
 Successfully changed project path to: D:/UnityNew/CapstoneDesign/Capstone_co_op_Game
 D:/UnityNew/CapstoneDesign/Capstone_co_op_Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 58.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,73 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003064 seconds.
+Registered in 0.002950 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 63.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.538 seconds
+- Completed reload, in  0.552 seconds
 Domain Reload Profiling:
-	ReloadAssembly (538ms)
-		BeginReloadAssembly (70ms)
+	ReloadAssembly (552ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (398ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (415ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (122ms)
+			SetupTypeCache (127ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (164ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (170ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (63ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (62ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004507 seconds.
+Registered in 0.004210 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\UnityNew\CapstoneDesign\Capstone_co_op_Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 64.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.983 seconds
+- Completed reload, in  1.009 seconds
 Domain Reload Profiling:
-	ReloadAssembly (984ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (1010ms)
+		BeginReloadAssembly (139ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (792ms)
-			LoadAssemblies (93ms)
+		EndReloadAssembly (813ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (244ms)
+			SetupTypeCache (250ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (329ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (341ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (185ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (190ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
@@ -111,14 +111,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2168 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 184.4 MB.
-System memory in use after: 184.5 MB.
+System memory in use before: 184.9 MB.
+System memory in use after: 185.0 MB.
 
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2626.
-Total: 3.561600 ms (FindLiveObjects: 0.293600 ms CreateObjectMapping: 0.073300 ms MarkObjects: 3.097100 ms  DeleteObjects: 0.096600 ms)
+Total: 3.318500 ms (FindLiveObjects: 0.296300 ms CreateObjectMapping: 0.066500 ms MarkObjects: 2.853400 ms  DeleteObjects: 0.101300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,49 +132,133 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/1_GPU_Inside.unity
-  artifactKey: Guid(81b124b198f69254a82123b71f4114c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/1_GPU_Inside.unity using Guid(81b124b198f69254a82123b71f4114c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba45bf4dfc610d24d4f157af073aba79') in 0.019500 seconds 
+  path: Assets/LostTemple-StandardRP/Scenes/Lost Temple All Props.unity
+  artifactKey: Guid(e91635901326c7540bc37b4467aa031b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LostTemple-StandardRP/Scenes/Lost Temple All Props.unity using Guid(e91635901326c7540bc37b4467aa031b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03a130c5e3225511a2573bd6f6a1ff6') in 0.017630 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Scenes/1_GPU_Outside_End.unity
-  artifactKey: Guid(cf173f37aaa4b88428e1a2a99c4ddcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/1_GPU_Outside_End.unity using Guid(cf173f37aaa4b88428e1a2a99c4ddcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8123bbbf382a8e5b2f5844f6124d5017') in 0.006839 seconds 
+  Time since last request: 0.000161 seconds.
+  path: Assets/LostTemple-StandardRP/Scenes
+  artifactKey: Guid(fba04a8423bb27d41ae480f786219c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LostTemple-StandardRP/Scenes using Guid(fba04a8423bb27d41ae480f786219c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cad6ad8c54916f46ce826d712de8ce5') in 0.023984 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 364.741748 seconds.
-  path: Assets/Scenes/2_CPU_Inside.unity
-  artifactKey: Guid(150a4f9b4aec28046aff566aae287b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/2_CPU_Inside.unity using Guid(150a4f9b4aec28046aff566aae287b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1889df0e00d2ade93be555a71fa30b8') in 0.006352 seconds 
+  Time since last request: 0.000188 seconds.
+  path: Assets/LostTemple-StandardRP/Scenes/Lost Temple Scene.unity
+  artifactKey: Guid(cc51d8d459ca79443b87cf209f097c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LostTemple-StandardRP/Scenes/Lost Temple Scene.unity using Guid(cc51d8d459ca79443b87cf209f097c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7171e47e611ee41a5712a13ea7c3fc58') in 0.006201 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 7.045980 seconds.
-  path: Assets/Scenes/2_CPU_Outside.unity
-  artifactKey: Guid(0e9c469b433415f43ba2a135b1e6e4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/2_CPU_Outside.unity using Guid(0e9c469b433415f43ba2a135b1e6e4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fd956655687684bb2e3c198d9ebc3a') in 0.005995 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003850 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityNew\CapstoneDesign\Capstone_co_op_Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (990ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (815ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (278ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (313ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.2 MB.
+System memory in use after: 183.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2629.
+Total: 3.116000 ms (FindLiveObjects: 0.222200 ms CreateObjectMapping: 0.054700 ms MarkObjects: 2.809100 ms  DeleteObjects: 0.029000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 644.046331 seconds.
-  path: Assets/LostTemple-StandardRP/UnityPackages
-  artifactKey: Guid(be1cf327dde814f4a8a6ac9fad86b579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LostTemple-StandardRP/UnityPackages using Guid(be1cf327dde814f4a8a6ac9fad86b579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a157bae34c3f9d67923b7db1cc4aa5cf') in 0.006443 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.889079 seconds.
-  path: Assets/LostTemple-StandardRP/UnityPackages/LostTemple-HDRP-UModeler.unitypackage
-  artifactKey: Guid(cd287c84e887ea24a8679e67aac7c074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LostTemple-StandardRP/UnityPackages/LostTemple-HDRP-UModeler.unitypackage using Guid(cd287c84e887ea24a8679e67aac7c074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a1f27190938a061be5f46d4020e564') in 0.022263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.720788 seconds.
-  path: Assets/LostTemple-StandardRP/UnityPackages/LostTemple-HDRP.unitypackage
-  artifactKey: Guid(5f3f53ee059b45a4d9a5b9fc75e8aea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LostTemple-StandardRP/UnityPackages/LostTemple-HDRP.unitypackage using Guid(5f3f53ee059b45a4d9a5b9fc75e8aea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdd0f0c06e094ff28ac89161d76b30d') in 0.006180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.252251 seconds.
-  path: Assets/LostTemple-StandardRP/UnityPackages/LostTemple-StandardRP-UModeler.unitypackage
-  artifactKey: Guid(5f288e010fbbde94198e330db7d6daf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LostTemple-StandardRP/UnityPackages/LostTemple-StandardRP-UModeler.unitypackage using Guid(5f288e010fbbde94198e330db7d6daf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b207ceb8421a23564a191d6916af70e') in 0.005750 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003925 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityNew\CapstoneDesign\Capstone_co_op_Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Domain Reload Profiling:
+	ReloadAssembly (867ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (701ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (263ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.2 MB.
+System memory in use after: 183.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2632.
+Total: 3.214900 ms (FindLiveObjects: 0.268100 ms CreateObjectMapping: 0.071900 ms MarkObjects: 2.847700 ms  DeleteObjects: 0.026400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
