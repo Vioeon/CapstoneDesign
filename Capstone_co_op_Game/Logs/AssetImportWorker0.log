@@ -15,11 +15,11 @@ D:/UnityNew/CapstoneDesign/Capstone_co_op_Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-13102
+5203
 Successfully changed project path to: D:/UnityNew/CapstoneDesign/Capstone_co_op_Game
 D:/UnityNew/CapstoneDesign/Capstone_co_op_Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 61.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 71.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,73 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002721 seconds.
+Registered in 0.002825 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 65.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 76.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.534 seconds
+- Completed reload, in  0.552 seconds
 Domain Reload Profiling:
-	ReloadAssembly (534ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (552ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (403ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (415ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (122ms)
+			SetupTypeCache (121ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (170ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (180ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (66ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (63ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003680 seconds.
+Registered in 0.004328 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\UnityNew\CapstoneDesign\Capstone_co_op_Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 65.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 76.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.999 seconds
+- Completed reload, in  1.014 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1000ms)
-		BeginReloadAssembly (137ms)
+	ReloadAssembly (1015ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (806ms)
-			LoadAssemblies (91ms)
+		EndReloadAssembly (815ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
+			SetupTypeCache (245ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (337ms)
+			SetupLoadedEditorAssemblies (349ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (66ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (186ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (187ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
@@ -111,14 +111,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2168 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 184.9 MB.
-System memory in use after: 185.0 MB.
+Unloading 2174 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.5 MB.
+System memory in use after: 190.6 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2626.
-Total: 3.204400 ms (FindLiveObjects: 0.284000 ms CreateObjectMapping: 0.074300 ms MarkObjects: 2.756900 ms  DeleteObjects: 0.088000 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2639.
+Total: 3.837900 ms (FindLiveObjects: 0.263800 ms CreateObjectMapping: 0.071400 ms MarkObjects: 3.406300 ms  DeleteObjects: 0.094900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,53 +134,59 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/Scenes/4_Power.unity
   artifactKey: Guid(3a48f562b54d27147a7837fa203a9a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/4_Power.unity using Guid(3a48f562b54d27147a7837fa203a9a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7df1bd541fde97c872acfca5b1cb15d') in 0.019855 seconds 
+Start importing Assets/Scenes/4_Power.unity using Guid(3a48f562b54d27147a7837fa203a9a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c0a7919c4f47e57fcc22b9e6367770') in 0.020097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 555.162090 seconds.
+  path: Assets/Scenes/4_Power.unity
+  artifactKey: Guid(3a48f562b54d27147a7837fa203a9a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/4_Power.unity using Guid(3a48f562b54d27147a7837fa203a9a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79f0a746cbbe5a46307ccbea19fa5c9') in 0.003392 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004366 seconds.
+Registered in 0.004575 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\UnityNew\CapstoneDesign\Capstone_co_op_Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.933 seconds
+- Completed reload, in  0.895 seconds
 Domain Reload Profiling:
-	ReloadAssembly (933ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (895ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (750ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (721ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
+			SetupTypeCache (248ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (285ms)
+			SetupLoadedEditorAssemblies (270ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadAttributes (183ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2150 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 183.4 MB.
-System memory in use after: 183.5 MB.
+System memory in use before: 188.8 MB.
+System memory in use after: 189.0 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2635.
-Total: 4.017500 ms (FindLiveObjects: 0.267700 ms CreateObjectMapping: 0.081400 ms MarkObjects: 3.637900 ms  DeleteObjects: 0.029300 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2642.
+Total: 3.679700 ms (FindLiveObjects: 0.220800 ms CreateObjectMapping: 0.050600 ms MarkObjects: 3.379100 ms  DeleteObjects: 0.028200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -192,1198 +198,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 521.783959 seconds.
-  path: Assets/ModularCityBuilder/Scenes
-  artifactKey: Guid(7cf97234bd53b624caf5ed4e073074fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Scenes using Guid(7cf97234bd53b624caf5ed4e073074fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef4162a91d06018d0d4402e8b358628') in 0.008125 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.848646 seconds.
-  path: Assets/ModularCityBuilder/Scenes/sample.unity
-  artifactKey: Guid(0f6692c227e8485498f4f62296ca5f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Scenes/sample.unity using Guid(0f6692c227e8485498f4f62296ca5f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99991934bd9871ad32e567fe60ff7ec0') in 0.014897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 336.892514 seconds.
-  path: Assets/ModularCityBuilder/Prefabs
-  artifactKey: Guid(53177454ed3418844ad0b411668f5132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs using Guid(53177454ed3418844ad0b411668f5132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21afd99a6e1c8a230044ed34955236f4') in 0.006365 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.119989 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings
-  artifactKey: Guid(ba7b9443b2f51d34cad0e4ceb90db781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings using Guid(ba7b9443b2f51d34cad0e4ceb90db781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3212abc23fa605307121d8b7660bba') in 0.006750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.065033 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings/Building01.prefab
-  artifactKey: Guid(96e6a59b136f16c4592370a973fad695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings/Building01.prefab using Guid(96e6a59b136f16c4592370a973fad695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b77a2dc2b19162bf35204a1c1b8b870') in 0.189850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings/Building01_D_Detailed.prefab
-  artifactKey: Guid(5d2bcf3b66a087f4aac1b79726132015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings/Building01_D_Detailed.prefab using Guid(5d2bcf3b66a087f4aac1b79726132015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8093e3d7fd2582703450da90d389c93e') in 0.137646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings/Building01_B_Detailed.prefab
-  artifactKey: Guid(ef129b0f0bcd1f04294a3b6f93f3b59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings/Building01_B_Detailed.prefab using Guid(ef129b0f0bcd1f04294a3b6f93f3b59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a621d3d170af5e8094d463c6bbc09792') in 0.099773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings/Building01_Detailed.prefab
-  artifactKey: Guid(cf59e6b7cdfb9b64599856bf3d7f2eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings/Building01_Detailed.prefab using Guid(cf59e6b7cdfb9b64599856bf3d7f2eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516c4753f1b638d0dbb92356d1ea688d') in 0.093906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings/Building02_B.prefab
-  artifactKey: Guid(07f37e71933e32e47a344d9561c16fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings/Building02_B.prefab using Guid(07f37e71933e32e47a344d9561c16fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825e889db841a73ee921f699a80b0d77') in 0.123032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings/Building01_B.prefab
-  artifactKey: Guid(cb074805b5f2e804a93ad4350bd512e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings/Building01_B.prefab using Guid(cb074805b5f2e804a93ad4350bd512e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e853e67c972a6d7de1cdc1ba2771c069') in 0.030268 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings/Building02.prefab
-  artifactKey: Guid(b5dc7e92a92503f49ab081933ea7ad7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings/Building02.prefab using Guid(b5dc7e92a92503f49ab081933ea7ad7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3150e20c077a0a4f0706b2ab97f90b') in 0.049027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings/Building01_C_Detailed.prefab
-  artifactKey: Guid(29abedf54627a7a40b503dbe2249feed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings/Building01_C_Detailed.prefab using Guid(29abedf54627a7a40b503dbe2249feed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e657db738b51f6a5b36f9c83ab88ea') in 0.081459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings/Building01_C.prefab
-  artifactKey: Guid(fdb63529d1976d84db14d22dd60f74ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings/Building01_C.prefab using Guid(fdb63529d1976d84db14d22dd60f74ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1aa21b4309eb695b83fec56866441c') in 0.022334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.106688 seconds.
-  path: Assets/Scenes/4_Power.unity
-  artifactKey: Guid(3a48f562b54d27147a7837fa203a9a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/4_Power.unity using Guid(3a48f562b54d27147a7837fa203a9a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d9e4de1f4c9ee81de8281a261c2ac9') in 0.006274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 78.833766 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings/Building02_B_Detailed.prefab
-  artifactKey: Guid(480a55c912007484a96999e13b06c08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings/Building02_B_Detailed.prefab using Guid(480a55c912007484a96999e13b06c08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbdf64814077dd2c303d3c84d4b1d38a') in 0.109703 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings/Building02_Detailed.prefab
-  artifactKey: Guid(76e70cd3683092142913fbec32d17903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings/Building02_Detailed.prefab using Guid(76e70cd3683092142913fbec32d17903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf0d2874299ae8549be4d8fe678cb3c') in 0.122836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings/Building03_Detailed.prefab
-  artifactKey: Guid(844386d5f953c324fbef6830ce4909c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings/Building03_Detailed.prefab using Guid(844386d5f953c324fbef6830ce4909c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bc74850fab41fb618d09d34022cdc6') in 0.371385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings/Building04.prefab
-  artifactKey: Guid(e781af3da4709c94d9178bd798185be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings/Building04.prefab using Guid(e781af3da4709c94d9178bd798185be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0dbaeea43f492032d9ed5364c5f8e43') in 0.049214 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings/Building04_B_Detailed.prefab
-  artifactKey: Guid(17431f53b03a61f4ca1d1fc2324e5d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings/Building04_B_Detailed.prefab using Guid(17431f53b03a61f4ca1d1fc2324e5d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6cb2078c3d776c6475fe0ae6ffad6c') in 0.203991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings/Building04_Detailed.prefab
-  artifactKey: Guid(10345447cda678d4b823be66d26d565b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings/Building04_Detailed.prefab using Guid(10345447cda678d4b823be66d26d565b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fac37c2a5faf17ed821723bd958f86') in 0.215653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings/Building03_B.prefab
-  artifactKey: Guid(7e1f6127b216bc74197d0cac8d86e07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings/Building03_B.prefab using Guid(7e1f6127b216bc74197d0cac8d86e07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05905865f7eba36716554d965d8aecdb') in 0.042304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings/Building03_B_Detailed.prefab
-  artifactKey: Guid(2e9d94668820b964cac04314de4a71ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings/Building03_B_Detailed.prefab using Guid(2e9d94668820b964cac04314de4a71ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6698d4c0c8706d72deef9ff80851bdc') in 0.116419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings/Building03.prefab
-  artifactKey: Guid(27309680a53dfdb48ac3e70ad2866450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings/Building03.prefab using Guid(27309680a53dfdb48ac3e70ad2866450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e4107582e0b85328f45de2d7f87385') in 0.051534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Buildings/Building04_B.prefab
-  artifactKey: Guid(46eb664fe2cf80443916d242832e19bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Buildings/Building04_B.prefab using Guid(46eb664fe2cf80443916d242832e19bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e9f67c880fcf07bc0cbde6e4579420') in 0.061569 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.927674 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props
-  artifactKey: Guid(e20f0aecbd555c64bb6c9336d8281e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props using Guid(e20f0aecbd555c64bb6c9336d8281e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a27cf84f9b3eb87e42236d3af151dc') in 0.004974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.059653 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/AC01.prefab
-  artifactKey: Guid(f37844c045036354cb8232bf56f22549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/AC01.prefab using Guid(f37844c045036354cb8232bf56f22549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7af3135ddbfa075303ede38f589d1a') in 0.019534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/AC02.prefab
-  artifactKey: Guid(759b888d4c34d914a995ae46962524af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/AC02.prefab using Guid(759b888d4c34d914a995ae46962524af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037ada68b87a33bff0962fc37c2a31e6') in 0.021119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Antanna02.prefab
-  artifactKey: Guid(0b9c59601b880a4408d7f555fb7d848f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Antanna02.prefab using Guid(0b9c59601b880a4408d7f555fb7d848f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292f5fe877844da7ab55a33be36b2260') in 0.045941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/AC01_Slow.prefab
-  artifactKey: Guid(a67923486754c034ebce7ec83f8f3b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/AC01_Slow.prefab using Guid(a67923486754c034ebce7ec83f8f3b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17b654adc417b0404be407a114ee2fd') in 0.020234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/AirVent01.prefab
-  artifactKey: Guid(9fc0ed02a98b60e4d841f91f7cea1b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/AirVent01.prefab using Guid(9fc0ed02a98b60e4d841f91f7cea1b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f29ee34b7ecabd95809b50b983f50c') in 0.049360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/AsphaltPiece01.prefab
-  artifactKey: Guid(cf54ea6cd8172c94c97b1b5d704c66f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/AsphaltPiece01.prefab using Guid(cf54ea6cd8172c94c97b1b5d704c66f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b909770759d79c364d1b103f284bb925') in 0.014439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/AsphaltPiece02.prefab
-  artifactKey: Guid(24d2163881d0fa54cb6ed4673ecc069b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/AsphaltPiece02.prefab using Guid(24d2163881d0fa54cb6ed4673ecc069b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef79c8ae5551b015107ffe397b99bcd') in 0.015853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Antenna01.prefab
-  artifactKey: Guid(10bad63e04ae361489ff19d5831d45a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Antenna01.prefab using Guid(10bad63e04ae361489ff19d5831d45a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c606bb749c054126d84fda2112f5fbe') in 0.046611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.019719 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/AsphaltPiece03.prefab
-  artifactKey: Guid(9db9a4ca63853e842969ff435e9b641d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/AsphaltPiece03.prefab using Guid(9db9a4ca63853e842969ff435e9b641d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a46f7d16f8bcd1b6e13a9a05f9d55d8') in 0.013533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/AsphaltPiece04.prefab
-  artifactKey: Guid(446500069adb07e4fb4f6fa316917cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/AsphaltPiece04.prefab using Guid(446500069adb07e4fb4f6fa316917cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97587c8938ca61b0f8a9f5a86848dc5') in 0.013831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/AsphaltPiece05.prefab
-  artifactKey: Guid(8ab18ba7fa4a4dd47835f0df1aa470ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/AsphaltPiece05.prefab using Guid(8ab18ba7fa4a4dd47835f0df1aa470ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f32298a85844cd984fb747edcd2e3de') in 0.014993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/AttentionSign.prefab
-  artifactKey: Guid(b6ad6fad7cae0004fafcedd2a9c86962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/AttentionSign.prefab using Guid(b6ad6fad7cae0004fafcedd2a9c86962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5588a8e2486bcff1df2d058d65c46af') in 0.033640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Bar02.prefab
-  artifactKey: Guid(4324ff85e41353346bd5a3480da5acc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Bar02.prefab using Guid(4324ff85e41353346bd5a3480da5acc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f1ea498d45755ccfdb2c16ed1832a2') in 0.024859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/AttentionSignBrake.prefab
-  artifactKey: Guid(5dc198de00b86af47949a384619740fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/AttentionSignBrake.prefab using Guid(5dc198de00b86af47949a384619740fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a7dc49bb29c159c7ed9a9e51f7040f') in 0.032561 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Atm.prefab
-  artifactKey: Guid(71d7e074e8f54ed408de513c99ac5694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Atm.prefab using Guid(71d7e074e8f54ed408de513c99ac5694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06c984ff26149c9c94947e825624d94') in 0.031496 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Bar01_Destroyed.prefab
-  artifactKey: Guid(616ffb193a17b734c8e7960c16dca33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Bar01_Destroyed.prefab using Guid(616ffb193a17b734c8e7960c16dca33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9a9a9541332d2e4b987686b640790d') in 0.020733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Bar01.prefab
-  artifactKey: Guid(775276d0239342846a4ac747520815bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Bar01.prefab using Guid(775276d0239342846a4ac747520815bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e765530d6cab84f5d8b1000ed3f5bf70') in 0.019957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Automat.prefab
-  artifactKey: Guid(f3e6d34dcd8ce5a41a728989ede15411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Automat.prefab using Guid(f3e6d34dcd8ce5a41a728989ede15411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bfcaf09fc55da3b4ec15edf6673b99') in 0.017914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.096244 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Bar02Destroyed.prefab
-  artifactKey: Guid(973ff7917e3dec1418aa8fff7ffcbd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Bar02Destroyed.prefab using Guid(973ff7917e3dec1418aa8fff7ffcbd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26325431929fecc364236130cfa07b31') in 0.020112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Bar03.prefab
-  artifactKey: Guid(8fac0b145f426c24db369915f62f8318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Bar03.prefab using Guid(8fac0b145f426c24db369915f62f8318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90a7b6d35ba9a779660884370abb588') in 0.021765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Bar03Destroyed.prefab
-  artifactKey: Guid(eb3edede82842a8479eaeeae2db0f4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Bar03Destroyed.prefab using Guid(eb3edede82842a8479eaeeae2db0f4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f59969d2289bcd43dff51eb08f4a373') in 0.020491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/BarSign02.prefab
-  artifactKey: Guid(dd786a2d655549b4ca03877d2f6285af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/BarSign02.prefab using Guid(dd786a2d655549b4ca03877d2f6285af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3615bb32fadd15427b6a869f4d4194f6') in 0.047870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Bench.prefab
-  artifactKey: Guid(7cc669c38b7d15844a5447cf717c1a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Bench.prefab using Guid(7cc669c38b7d15844a5447cf717c1a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c72bb03c3651357d9db9eb6f9f0ae98') in 0.049236 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/BarSign01.prefab
-  artifactKey: Guid(120ee0c911f74bf419da5779025c792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/BarSign01.prefab using Guid(120ee0c911f74bf419da5779025c792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26c36a1f2351006bf08d95e35074bc0') in 0.047560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Bar04.prefab
-  artifactKey: Guid(a197e1dd2aa9a0a419738180845d3ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Bar04.prefab using Guid(a197e1dd2aa9a0a419738180845d3ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94720805a37820b23a501ad2eab25281') in 0.021255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Barrel01.prefab
-  artifactKey: Guid(7c2e316b2877bec4287c1a65b4bd8dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Barrel01.prefab using Guid(7c2e316b2877bec4287c1a65b4bd8dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9fe42e1a2d450578347b456d5a01a3') in 0.022232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Box02.prefab
-  artifactKey: Guid(52dadc62d207ccf429f40463a98b5530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Box02.prefab using Guid(52dadc62d207ccf429f40463a98b5530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b7a263178289f3003d09fb0434a3e8') in 0.049825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Cable_20m_animated.prefab
-  artifactKey: Guid(0066e5f18f75d0f489037ec1bb56ccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Cable_20m_animated.prefab using Guid(0066e5f18f75d0f489037ec1bb56ccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467f4df61a0f0536a4acf3582bf5ceee') in 0.010593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Cable_10m.prefab
-  artifactKey: Guid(b683a5a0f45bc734e9b990e477b0fc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Cable_10m.prefab using Guid(b683a5a0f45bc734e9b990e477b0fc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2c86db2c30e36d1a2b8b42bcf8c524') in 0.011469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Box01.prefab
-  artifactKey: Guid(8df18b105c327b74c8e1c9261e06ba25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Box01.prefab using Guid(8df18b105c327b74c8e1c9261e06ba25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f887b96d9f5e60a71fa6c0e61556b4') in 0.053347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/CardBoardBox01.prefab
-  artifactKey: Guid(6edf6fd620b105047aaeee7f27c058b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/CardBoardBox01.prefab using Guid(6edf6fd620b105047aaeee7f27c058b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e75f68bdd20cf2f7d9a7d0e6168c20') in 0.022761 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Box03.prefab
-  artifactKey: Guid(7941fcb5f417f1749b592dc14482b401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Box03.prefab using Guid(7941fcb5f417f1749b592dc14482b401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641e133e936726161a8ed3fa375b6dcb') in 0.056564 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/ChimneysWithSmoke.prefab
-  artifactKey: Guid(dbec4a550d9a6204fb88144c334bfc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/ChimneysWithSmoke.prefab using Guid(dbec4a550d9a6204fb88144c334bfc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbb2708715ec0e95cc23640ba21bfe2') in 0.022301 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/ConstructionCone.prefab
-  artifactKey: Guid(1eee610a8c9f8e540af796b088d06df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/ConstructionCone.prefab using Guid(1eee610a8c9f8e540af796b088d06df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145dc0277a433ebe9af35072187d339e') in 0.024568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/DestroyedBench.prefab
-  artifactKey: Guid(eaff3a04ed124aa43af622921ebb8a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/DestroyedBench.prefab using Guid(eaff3a04ed124aa43af622921ebb8a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c1a4bc30fb21de2291ab10a791e686') in 0.054908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/DirectionSign.prefab
-  artifactKey: Guid(8ebd71f44f85aff43869fbd732ae3e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/DirectionSign.prefab using Guid(8ebd71f44f85aff43869fbd732ae3e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b44c1a7acb3be38b77a54b35f9d7eb') in 0.034624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/DirectionSignBrake.prefab
-  artifactKey: Guid(97e7e69a74d2ab645a90614604da969f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/DirectionSignBrake.prefab using Guid(97e7e69a74d2ab645a90614604da969f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e5b54f3952f5131186434e837d23ee') in 0.034695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Door.prefab
-  artifactKey: Guid(4a6ba974a79bb3043b0b84a335902982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Door.prefab using Guid(4a6ba974a79bb3043b0b84a335902982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee5a503d6569106b9e65c81c2655a61') in 0.054905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/DinnerSign02.prefab
-  artifactKey: Guid(6c896507f3367ec45b63e22a9fc9c31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/DinnerSign02.prefab using Guid(6c896507f3367ec45b63e22a9fc9c31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7368e4cd36951ea4989618ca045f5b') in 0.013676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/DinnerSign01.prefab
-  artifactKey: Guid(21484287a422be0488f1e083bc65b7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/DinnerSign01.prefab using Guid(21484287a422be0488f1e083bc65b7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd248f1faa6820176a6b1380c1e15a864') in 0.011568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Cable_10m_animated.prefab
-  artifactKey: Guid(3214681399b526f4da011c32d5939d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Cable_10m_animated.prefab using Guid(3214681399b526f4da011c32d5939d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876de33e337686ffa1806f8c3b070a67') in 0.011059 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/CardBoardBox02.prefab
-  artifactKey: Guid(d930690b832d3424086dac8cd5fc700a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/CardBoardBox02.prefab using Guid(d930690b832d3424086dac8cd5fc700a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fecfdf890a5a001688b2abec9831f15') in 0.020138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/DontStopSignBrake.prefab
-  artifactKey: Guid(212ac978581af604b95dfc9127fb5c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/DontStopSignBrake.prefab using Guid(212ac978581af604b95dfc9127fb5c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188f7cb6c02000a06ef9250f2ff555e0') in 0.029600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/BrokenPipe.prefab
-  artifactKey: Guid(28cc745e090365f41a46d6e603fbf710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/BrokenPipe.prefab using Guid(28cc745e090365f41a46d6e603fbf710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd1837c41797062c1a3d3799ca1ac1e') in 0.046054 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Chimneys.prefab
-  artifactKey: Guid(ab0471ad93addb44eb4f38838f6835e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Chimneys.prefab using Guid(ab0471ad93addb44eb4f38838f6835e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a6a1a35d5ae57a0f8b17c3f9a850f2') in 0.025161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/BusStop.prefab
-  artifactKey: Guid(d407bf4947d294046958430481c43532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/BusStop.prefab using Guid(d407bf4947d294046958430481c43532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea10b8b34b296e26f3609ca176531fd') in 0.058350 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/DontStopSign.prefab
-  artifactKey: Guid(15f1009c4d0508d41815696051cd0b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/DontStopSign.prefab using Guid(15f1009c4d0508d41815696051cd0b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69aeeaf31d4c772c4a421d430cefb40') in 0.029615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/ConcreteBarrier.prefab
-  artifactKey: Guid(b9cdb261b1eec0d42864170553628f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/ConcreteBarrier.prefab using Guid(b9cdb261b1eec0d42864170553628f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6d7d090cfb97e0301d5dbd5631c032') in 0.018904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.212293 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/ElectricBox01.prefab
-  artifactKey: Guid(29d87cd970727b34eb2e70be83ccbdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/ElectricBox01.prefab using Guid(29d87cd970727b34eb2e70be83ccbdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c960b08b957dc050aa59e21ab77fbd37') in 0.017184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/ElectricPylon01.prefab
-  artifactKey: Guid(c17b275c2d9d4eb468f25173a74ca37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/ElectricPylon01.prefab using Guid(c17b275c2d9d4eb468f25173a74ca37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d71469c18380596e62f2de5d2a6e0ca') in 0.046554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/ElectricPylon02.prefab
-  artifactKey: Guid(20dc85588321da344ae1e372ede51f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/ElectricPylon02.prefab using Guid(20dc85588321da344ae1e372ede51f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226ea45b0da3f18f08044396fda0b428') in 0.048458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Fence01.prefab
-  artifactKey: Guid(147e23e77b5790842aa5259535e25e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Fence01.prefab using Guid(147e23e77b5790842aa5259535e25e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104863aafeaf33b73512b8381044a439') in 0.169027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Fence02.prefab
-  artifactKey: Guid(a09384eab4bb11f43b3e25fbc84d2644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Fence02.prefab using Guid(a09384eab4bb11f43b3e25fbc84d2644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5d235c087e7012fd79b6352b9986d7') in 0.017757 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/ElectricPylon03.prefab
-  artifactKey: Guid(1053455f538ef79438759bc2e632a03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/ElectricPylon03.prefab using Guid(1053455f538ef79438759bc2e632a03f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1365a70b19f7abfbe87f4181a8a25d') in 0.027683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.255810 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Fence02CornerPart.prefab
-  artifactKey: Guid(3f426395f0c6a164b86a87342fdc6780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Fence02CornerPart.prefab using Guid(3f426395f0c6a164b86a87342fdc6780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9727abcf2187f22605f29e8d45a146e7') in 0.017587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Fence02Destroyed1.prefab
-  artifactKey: Guid(1f231e8ca1a4f7540a94930b22b98842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Fence02Destroyed1.prefab using Guid(1f231e8ca1a4f7540a94930b22b98842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad5a6208837da3612a24babea367291') in 0.023654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.034697 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Fence02Destroyed2.prefab
-  artifactKey: Guid(fc9c1e589a2835a45934191410d3c15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Fence02Destroyed2.prefab using Guid(fc9c1e589a2835a45934191410d3c15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8e3bd9dac8bb08751fd528b2529694') in 0.023108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Fence03.prefab
-  artifactKey: Guid(9ce9a1f220ad1194bac0d4112f3d8c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Fence03.prefab using Guid(9ce9a1f220ad1194bac0d4112f3d8c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12e58ddfab9a68ed577ebc54141f5a7') in 0.024249 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.285448 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Fence03Destroyed01.prefab
-  artifactKey: Guid(fdc82704b2a595543a3248cb06e722f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Fence03Destroyed01.prefab using Guid(fdc82704b2a595543a3248cb06e722f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdf92156206a2a8624653d864301733') in 0.018557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/FoodSign01.prefab
-  artifactKey: Guid(8041ac63da9495c449d6fca524245954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/FoodSign01.prefab using Guid(8041ac63da9495c449d6fca524245954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78753c6f7d55097d4fab02ef45ab1c5') in 0.047465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Fence03destroyed03.prefab
-  artifactKey: Guid(8b964999317e98a4781057323ebd4f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Fence03destroyed03.prefab using Guid(8b964999317e98a4781057323ebd4f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a8533a21463531d4aa90ad5c9ae00c') in 0.021013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Fence03destroyed02.prefab
-  artifactKey: Guid(6d55da378c547174699a9265ebe5a1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Fence03destroyed02.prefab using Guid(6d55da378c547174699a9265ebe5a1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e939d86bad09566b9d2b46868b8764') in 0.021508 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.290830 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/FoodSign02.prefab
-  artifactKey: Guid(4886817f73f399d4799d7d67741ead6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/FoodSign02.prefab using Guid(4886817f73f399d4799d7d67741ead6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3993d9fd20b9d792149fea3b94f0ef1') in 0.010328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/FoodSign03.prefab
-  artifactKey: Guid(be1e925695cf16345b74e1ef861935f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/FoodSign03.prefab using Guid(be1e925695cf16345b74e1ef861935f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207e471c70c0460509babe28d5166767') in 0.010856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005674 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Fountain.prefab
-  artifactKey: Guid(271e4897c2084804b911275949116a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Fountain.prefab using Guid(271e4897c2084804b911275949116a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90b8dd63e1e4a3da85faf46db702518') in 0.044184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/FruitSign01.prefab
-  artifactKey: Guid(bb909ff9f8a35f04fa1ad63912bf07a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/FruitSign01.prefab using Guid(bb909ff9f8a35f04fa1ad63912bf07a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d672879ed4bf46b589ee2f8fbffe481') in 0.047904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.255555 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/GivingWaySign.prefab
-  artifactKey: Guid(66b696ffef05cc74dbbf8f07a7995455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/GivingWaySign.prefab using Guid(66b696ffef05cc74dbbf8f07a7995455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcb9a9fffefdb4f3e617b4a075fd963') in 0.029105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Ground.prefab
-  artifactKey: Guid(0e0990d7fc71ffa438aecff3faa9f6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Ground.prefab using Guid(0e0990d7fc71ffa438aecff3faa9f6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d6c6f8719b1e7d2b824ad2ed46ba4a') in 0.013713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Ground_Little.prefab
-  artifactKey: Guid(d008fd79211a9e34cbfda5963b7dbde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Ground_Little.prefab using Guid(d008fd79211a9e34cbfda5963b7dbde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babf79d3bdfb44ed9b3663f6543a7e0b') in 0.013825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/GivingWaySignBrake.prefab
-  artifactKey: Guid(3dad1bc043ae6e34abd025d6632f1257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/GivingWaySignBrake.prefab using Guid(3dad1bc043ae6e34abd025d6632f1257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe7018fad62f95653a1316e5ac8c459') in 0.030850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.398427 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/GuardRailDual.prefab
-  artifactKey: Guid(6ad1affb00dd131438cc1c8a5a270f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/GuardRailDual.prefab using Guid(6ad1affb00dd131438cc1c8a5a270f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c7d9bf01b3b1741cb1a5976e1ab6bc') in 0.019525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/GuardRailSimple.prefab
-  artifactKey: Guid(988e4c78926612e46b0df25611c3aaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/GuardRailSimple.prefab using Guid(988e4c78926612e46b0df25611c3aaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6374703ea68f0c8e9d04f4032e5f47') in 0.020332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.093639 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Hydrant.prefab
-  artifactKey: Guid(5d426a2602fb8804d9ce2645fd0bfcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Hydrant.prefab using Guid(5d426a2602fb8804d9ce2645fd0bfcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695ebcd73a573ba74fdd5425cbd7638b') in 0.018327 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/HydrantDestroyed.prefab
-  artifactKey: Guid(00e6da765e7195e48b2b643bf3bbe640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/HydrantDestroyed.prefab using Guid(00e6da765e7195e48b2b643bf3bbe640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e53001502ac3fb813020226d110112d') in 0.019741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.077676 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Lantern01.prefab
-  artifactKey: Guid(b2bf2190f2afc704dae1b7ad767d102a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Lantern01.prefab using Guid(b2bf2190f2afc704dae1b7ad767d102a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb40a4aaa9625b7625a29073d3275261') in 0.019098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Lantern02.prefab
-  artifactKey: Guid(1954ec413e7c7dd468ef4fed0c807480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Lantern02.prefab using Guid(1954ec413e7c7dd468ef4fed0c807480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deaaa85e166737a4704a5c77c72ee836') in 0.020237 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.596430 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Lantern03.prefab
-  artifactKey: Guid(cc16f632097354647b316d016f601963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Lantern03.prefab using Guid(cc16f632097354647b316d016f601963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a167192a97f154d2d49ebdd123d0cc') in 0.018170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Lantern04.prefab
-  artifactKey: Guid(37fd84070267c424baa8f39523d3e4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Lantern04.prefab using Guid(37fd84070267c424baa8f39523d3e4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61033b1bf6978a0caa77dd70f9ae2b7a') in 0.021468 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.040706 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Lantern05.prefab
-  artifactKey: Guid(64314ae3d0ff722499738407aadbec42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Lantern05.prefab using Guid(64314ae3d0ff722499738407aadbec42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d49c5e37437b312f48f1a1f57b624d9') in 0.017615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/ManHole01.prefab
-  artifactKey: Guid(9e155fbd7b57de4409eb58e51eeeb833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/ManHole01.prefab using Guid(9e155fbd7b57de4409eb58e51eeeb833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31344a3404900206db024a5fe8ee162') in 0.013162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.535641 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/ManHole02.prefab
-  artifactKey: Guid(378964a06fa68ce4a99d2487313f3457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/ManHole02.prefab using Guid(378964a06fa68ce4a99d2487313f3457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613b80c71a7b168057c55a2f4717a4de') in 0.012506 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/ManHole03.prefab
-  artifactKey: Guid(3a5b6b0a6ba204b45a9cc220cb1c2306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/ManHole03.prefab using Guid(3a5b6b0a6ba204b45a9cc220cb1c2306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b28a4c4a7591f210f6cf76048b4f6a4') in 0.012578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004209 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/ManHole04.prefab
-  artifactKey: Guid(b67fe0558e845e64ea1fa0c4be919d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/ManHole04.prefab using Guid(b67fe0558e845e64ea1fa0c4be919d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f1efc1c198cf11dc5452599a50c39f') in 0.013335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/ManHole05.prefab
-  artifactKey: Guid(4a0105746b3b01d4c97af2185fd5aa42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/ManHole05.prefab using Guid(4a0105746b3b01d4c97af2185fd5aa42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1026d29c3c2fd1809b3aad7e4bca603') in 0.013637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.375565 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/ManHole06.prefab
-  artifactKey: Guid(1aec75f870bde81408d536d2a45b1448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/ManHole06.prefab using Guid(1aec75f870bde81408d536d2a45b1448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d84993c8460f43808dbf95f6c7ffcb') in 0.011659 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/MetalPlate01.prefab
-  artifactKey: Guid(5b8413cd689cbd24a99502029a983344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/MetalPlate01.prefab using Guid(5b8413cd689cbd24a99502029a983344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfdd849e55dc2bd912481236f7e82e8a') in 0.020552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/NoEntrySign.prefab
-  artifactKey: Guid(be73052ca9af51d4d937f2e10e3038d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/NoEntrySign.prefab using Guid(be73052ca9af51d4d937f2e10e3038d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c301d51ed01f88820a45b204064c5c6') in 0.031531 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/NewsStand.prefab
-  artifactKey: Guid(7d3686e06ddf2564caec74c806c9d75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/NewsStand.prefab using Guid(7d3686e06ddf2564caec74c806c9d75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883b3db1254f8ce0793baff87a2d8752') in 0.048580 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.058835 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/NoEntrySignBrake.prefab
-  artifactKey: Guid(68becdff62299434e939b4679b5615b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/NoEntrySignBrake.prefab using Guid(68becdff62299434e939b4679b5615b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0750534075b153095ab50291dced7615') in 0.030230 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/NoOvertakingSign.prefab
-  artifactKey: Guid(4817b2f6f2cf970498ad443ae4d44ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/NoOvertakingSign.prefab using Guid(4817b2f6f2cf970498ad443ae4d44ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6323bb489596ce418ce329c7f31c54') in 0.030924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.151028 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/NoOvertakingSignBrake.prefab
-  artifactKey: Guid(ebbc03d19f5ef4942bdda04ddd081a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/NoOvertakingSignBrake.prefab using Guid(ebbc03d19f5ef4942bdda04ddd081a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df421f326fb9d4a374249957daac6db1') in 0.029013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/OnewaySign.prefab
-  artifactKey: Guid(ed67b704e7d9f884c9aaac93c89a28ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/OnewaySign.prefab using Guid(ed67b704e7d9f884c9aaac93c89a28ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b01e4b8fcad8b6b9d5334e7a6aa8303') in 0.032939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.563736 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/OnewaySignBrake.prefab
-  artifactKey: Guid(31764f10ee1a92440aa2271bb45321d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/OnewaySignBrake.prefab using Guid(31764f10ee1a92440aa2271bb45321d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29344660faeecee4ab8df354fd114613') in 0.030142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/OutHouse.prefab
-  artifactKey: Guid(677d8006794f01d45b69b9ae255737d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/OutHouse.prefab using Guid(677d8006794f01d45b69b9ae255737d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84419ef4125bcc593caa927d2e6e0aaa') in 0.018864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.251488 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/ParkingMeter.prefab
-  artifactKey: Guid(d36825793fe6e6b47b8c50f70c80cf30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/ParkingMeter.prefab using Guid(d36825793fe6e6b47b8c50f70c80cf30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3358fa787e6cea9ddf694391bcd37d') in 0.018380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/ParkingMeter01.prefab
-  artifactKey: Guid(d2d786ae0110edc47b0d603b9bc45521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/ParkingMeter01.prefab using Guid(d2d786ae0110edc47b0d603b9bc45521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5263b278d5d50316933cb6d8d7068a29') in 0.046984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/ParkingSignBrake.prefab
-  artifactKey: Guid(084fd8bf4bbd98940835ef5042eb1cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/ParkingSignBrake.prefab using Guid(084fd8bf4bbd98940835ef5042eb1cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a09abafaa1538193408514e7824fc63') in 0.030961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/ParkingSign.prefab
-  artifactKey: Guid(85d02e137c16436448ffed1f818159b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/ParkingSign.prefab using Guid(85d02e137c16436448ffed1f818159b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe33aa24e3ec2240ec7d2e5f9a35691f') in 0.031559 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.405098 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/PedestrianCrissingSign.prefab
-  artifactKey: Guid(ba91734ef4fe97c4190a3936152d5677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/PedestrianCrissingSign.prefab using Guid(ba91734ef4fe97c4190a3936152d5677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23dc9a6794de0eb1505cd7d10d2b6335') in 0.036389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/PedestrianCrissingSignBrake.prefab
-  artifactKey: Guid(ecf67677767190348adc865dd98c7767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/PedestrianCrissingSignBrake.prefab using Guid(ecf67677767190348adc865dd98c7767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4437bc31e1d93e9e356198e50f1a8530') in 0.033336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.747594 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/PedestrianLamp_A.prefab
-  artifactKey: Guid(39c6908f46a43be4fb32af7549bfa31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/PedestrianLamp_A.prefab using Guid(39c6908f46a43be4fb32af7549bfa31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9f9288d34fb00861e7add4b939c615') in 0.020189 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/PedestrianLamp_B.prefab
-  artifactKey: Guid(4625b43d93a7aa0449fc9a55ff76cda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/PedestrianLamp_B.prefab using Guid(4625b43d93a7aa0449fc9a55ff76cda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef21a57558a1d2d6d8dd98c98a93d228') in 0.023105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.046221 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Phone.prefab
-  artifactKey: Guid(9cb28f9d7ad2cbd449fd84d25dd71987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Phone.prefab using Guid(9cb28f9d7ad2cbd449fd84d25dd71987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649b382dca908eb6d87e3c49115a2659') in 0.019906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/PhoneBooth.prefab
-  artifactKey: Guid(4b703c59e9979304ebec88c688476085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/PhoneBooth.prefab using Guid(4b703c59e9979304ebec88c688476085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00d8c40a48e4410805abc31db91beed') in 0.024523 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009056 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Pipe01.prefab
-  artifactKey: Guid(f3b642d5cb9f5df4f9f14f95c8ba6652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Pipe01.prefab using Guid(f3b642d5cb9f5df4f9f14f95c8ba6652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8127f45d4c964e5326c619d304d961ce') in 0.047100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Pipe02.prefab
-  artifactKey: Guid(d6fdfe1009a1f6643b984793d429566f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Pipe02.prefab using Guid(d6fdfe1009a1f6643b984793d429566f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1be12512be794ed39a86bb953c38f8') in 0.049275 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.389121 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Puddle01.prefab
-  artifactKey: Guid(b99b2e44779fe9d4d95f0647d1af88aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Puddle01.prefab using Guid(b99b2e44779fe9d4d95f0647d1af88aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa43109336b45338267bc17291b64d0') in 0.081842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Puddle02.prefab
-  artifactKey: Guid(c70ac2f76d5dfff428d9466ea0c11a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Puddle02.prefab using Guid(c70ac2f76d5dfff428d9466ea0c11a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a16f88d4f5d7180dfe383fcbf1ac5ca') in 0.011739 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.927361 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/RestaurantSign01.prefab
-  artifactKey: Guid(f395f959ed9fdc744abb4dc5a56203f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/RestaurantSign01.prefab using Guid(f395f959ed9fdc744abb4dc5a56203f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bc5ed3e9f7a3723e833f8c87004172') in 0.045381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/RestaurantSign02.prefab
-  artifactKey: Guid(ace211b170307b5449c1722d86fe37b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/RestaurantSign02.prefab using Guid(ace211b170307b5449c1722d86fe37b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c321d2ef130304df1a75fe62e42c74') in 0.049093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/RestaurantSign04.prefab
-  artifactKey: Guid(fd3a9cbeb27a3054a89c64aa32ea9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/RestaurantSign04.prefab using Guid(fd3a9cbeb27a3054a89c64aa32ea9f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebfafdca9fe828ae7404ad59deddead') in 0.048518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/RestaurantSign03.prefab
-  artifactKey: Guid(6f923b0e177fd8543819e5bfc4ed5b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/RestaurantSign03.prefab using Guid(6f923b0e177fd8543819e5bfc4ed5b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffa045916820037d085b42bc6a2345e') in 0.052423 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.576969 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/RestaurantSign05.prefab
-  artifactKey: Guid(cbff63288a9a49240894a457770c7d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/RestaurantSign05.prefab using Guid(cbff63288a9a49240894a457770c7d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406f65e885122898704111959aa946e9') in 0.047554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/RoadWorkColumn.prefab
-  artifactKey: Guid(c537c6b9641adff49879e77fdd76df78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/RoadWorkColumn.prefab using Guid(c537c6b9641adff49879e77fdd76df78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671e8d940f2ac4c02d52ae788286f0da') in 0.049031 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/RestaurantSign06.prefab
-  artifactKey: Guid(03a24975409e8634cb5c2518cce22c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/RestaurantSign06.prefab using Guid(03a24975409e8634cb5c2518cce22c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7ceb8bd18414830053f15af241b10b') in 0.049019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/RoadWorkBig.prefab
-  artifactKey: Guid(d383bf6446fbba84580e54123993bf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/RoadWorkBig.prefab using Guid(d383bf6446fbba84580e54123993bf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db539048b61dbe9882ae85b8e56a8148') in 0.068369 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.137808 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/RoadWorkSmall.prefab
-  artifactKey: Guid(71e4e46d7473ae641b1361aef7eed11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/RoadWorkSmall.prefab using Guid(71e4e46d7473ae641b1361aef7eed11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5d85064cca5582a84a730bbd7c2c58') in 0.056557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/RoadWorkWood.prefab
-  artifactKey: Guid(ea5a00e789ee8814cb3013cb548368c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/RoadWorkWood.prefab using Guid(ea5a00e789ee8814cb3013cb548368c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f717b1cddbeb74e409e6698a0212aa1d') in 0.051313 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.333931 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/RoofBuilding01.prefab
-  artifactKey: Guid(3775c7bd1f897d94099942cf94236cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/RoofBuilding01.prefab using Guid(3775c7bd1f897d94099942cf94236cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32d5edc6f6ce7fbe4acf5402f161c3e') in 0.058242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/RoofBuilding02.prefab
-  artifactKey: Guid(00f4b19dbde6602409be0339dd4b8751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/RoofBuilding02.prefab using Guid(00f4b19dbde6602409be0339dd4b8751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417cb464c571d717e2f3e6bcbbb29504') in 0.051505 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.215377 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Sattelite.prefab
-  artifactKey: Guid(ecf7af3a512f15c4fabb6b35cc5adf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Sattelite.prefab using Guid(ecf7af3a512f15c4fabb6b35cc5adf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6641e098a6d1c543e92eb81134fece') in 0.045044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/SignColumn.prefab
-  artifactKey: Guid(562335610911add4388de4fa1fd8e58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/SignColumn.prefab using Guid(562335610911add4388de4fa1fd8e58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e12fb16e302a788825f733bbb65aab') in 0.030495 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.056573 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/SlowSign.prefab
-  artifactKey: Guid(f61e57c8ba8ff10418a4e14a6cefd744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/SlowSign.prefab using Guid(f61e57c8ba8ff10418a4e14a6cefd744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0296ad9ac6114e7a6e009378075f1b4e') in 0.031919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/SlowSignBrake.prefab
-  artifactKey: Guid(9603acc69527e534e96e58434ef58505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/SlowSignBrake.prefab using Guid(9603acc69527e534e96e58434ef58505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fd56e01f7d4abb641388f67b3790a7') in 0.040593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.397001 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Smoke01.prefab
-  artifactKey: Guid(96a99410e076a2a468cb55b2de02ba12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Smoke01.prefab using Guid(96a99410e076a2a468cb55b2de02ba12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cab62b331a015b2d09c0bec6c68a20') in 0.010939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/SolarCell.prefab
-  artifactKey: Guid(d646350f07e318c459e3fe55206d1d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/SolarCell.prefab using Guid(d646350f07e318c459e3fe55206d1d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89426a54ffe8ecd1a908d8ebc0f7f78') in 0.024391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.140965 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/SpeedLimitSign.prefab
-  artifactKey: Guid(f6885fabdebef4741bc9d207a2da7f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/SpeedLimitSign.prefab using Guid(f6885fabdebef4741bc9d207a2da7f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ee0c158f0e1493cf8119e00111e46c') in 0.029536 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/SpeedLimitSignBrake.prefab
-  artifactKey: Guid(1abb82ed995ec7449bd6aac54caf1b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/SpeedLimitSignBrake.prefab using Guid(1abb82ed995ec7449bd6aac54caf1b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f95bd0066e86c0e94cb3125485c1e9') in 0.031204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.513102 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StopSign.prefab
-  artifactKey: Guid(305e7499bda6be84382157950864ac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StopSign.prefab using Guid(305e7499bda6be84382157950864ac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668a550475061eccde41f34ad97ef98f') in 0.029830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StopSignBrake.prefab
-  artifactKey: Guid(964e75c886928504bb14df413a92398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StopSignBrake.prefab using Guid(964e75c886928504bb14df413a92398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8407b6d49e4b7a990ed49e14edc6b74') in 0.036404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.034501 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StoreSign01.prefab
-  artifactKey: Guid(8c31dce812a827f4281a79c4e4c0b16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StoreSign01.prefab using Guid(8c31dce812a827f4281a79c4e4c0b16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bc7f0904aa128064edab4ced617e03') in 0.010996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StoreSign02.prefab
-  artifactKey: Guid(4bb63d1d0080cdf4ea28ef97b364f45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StoreSign02.prefab using Guid(4bb63d1d0080cdf4ea28ef97b364f45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980a6c0344ac70549b12b10b95b3cd0a') in 0.013094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.059426 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StoreSign03.prefab
-  artifactKey: Guid(ac669e33e5596394f977d917650d3b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StoreSign03.prefab using Guid(ac669e33e5596394f977d917650d3b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b3779f662dea61c33f68bf90fbbc68') in 0.010335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StreetLamp01.prefab
-  artifactKey: Guid(719f2c7db1ca24642ac7014e66e5ad89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StreetLamp01.prefab using Guid(719f2c7db1ca24642ac7014e66e5ad89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2663bef2370b5f079b50c60389d3ef10') in 0.028089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.429502 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StreetLamp01_destroyed.prefab
-  artifactKey: Guid(1e76288f915ee47489e4d545a1c1db34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StreetLamp01_destroyed.prefab using Guid(1e76288f915ee47489e4d545a1c1db34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead94a07e12f7b08b7920508b30adf88') in 0.021394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StreetLamp02_destroyed.prefab
-  artifactKey: Guid(2ceec8aaecf3eec49b5b012573095a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StreetLamp02_destroyed.prefab using Guid(2ceec8aaecf3eec49b5b012573095a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd48563d3c266d70749dc1c8852a8838') in 0.025728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StreetLamp01_phase01.prefab
-  artifactKey: Guid(f35a7fa569f5f4b49bb859c625ef8b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StreetLamp01_phase01.prefab using Guid(f35a7fa569f5f4b49bb859c625ef8b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec933974b794e68fc5a9f232d7bb178c') in 0.022466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StreetLamp02.prefab
-  artifactKey: Guid(15558b52bed28ee469cb6accd86132b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StreetLamp02.prefab using Guid(15558b52bed28ee469cb6accd86132b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e60b44057d6bb90ff0cd936817b8860') in 0.026405 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.313740 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StreetLamp02_phase01.prefab
-  artifactKey: Guid(c8dc16b89dcf9f64eb6fa0951292ca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StreetLamp02_phase01.prefab using Guid(c8dc16b89dcf9f64eb6fa0951292ca11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85229737db059d9063fd75edb7eb7b3d') in 0.020477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StreetLamp03_phase01.prefab
-  artifactKey: Guid(937d58e8a919e8a4fa70483069fc78ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StreetLamp03_phase01.prefab using Guid(937d58e8a919e8a4fa70483069fc78ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f227eac9069542603472be8137be9ff') in 0.195413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StreetLamp03.prefab
-  artifactKey: Guid(34f3de9f35882f24abefa27fbcc64e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StreetLamp03.prefab using Guid(34f3de9f35882f24abefa27fbcc64e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf7474ec431a77f715ce761dee00c99') in 0.021923 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StreetLamp03_destroyed.prefab
-  artifactKey: Guid(4bf2baa0f7d8f614eb2c7e6212e7a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StreetLamp03_destroyed.prefab using Guid(4bf2baa0f7d8f614eb2c7e6212e7a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5c6170c456ded937824d54d40c78ac') in 0.020654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.115893 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StreetLamp04.prefab
-  artifactKey: Guid(b2efbeb81ba02d6468fa0ba32591aea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StreetLamp04.prefab using Guid(b2efbeb81ba02d6468fa0ba32591aea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196f4fd778afc71c03b6d107d7fa6fc1') in 0.021144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StreetLamp05.prefab
-  artifactKey: Guid(dcb21df6121e8a54d9ddd3e0f50da0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StreetLamp05.prefab using Guid(dcb21df6121e8a54d9ddd3e0f50da0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af003c08532eb7852c927ec1c6714200') in 0.022898 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StreetLamp04_destroyed.prefab
-  artifactKey: Guid(0a7257cf077bad146a418d59f61c74b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StreetLamp04_destroyed.prefab using Guid(0a7257cf077bad146a418d59f61c74b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b21b6839b158a89fc7e23a5c9f8d400') in 0.016470 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StreetLamp04_phase01.prefab
-  artifactKey: Guid(91d9defe2134ed34ba652871798f6767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StreetLamp04_phase01.prefab using Guid(91d9defe2134ed34ba652871798f6767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b3aa0e5b0a2d12bb0ad50575b06f32') in 0.022742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StreetLamp05_destroyed.prefab
-  artifactKey: Guid(936fd1706196fe34893ebd21a9f3146a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StreetLamp05_destroyed.prefab using Guid(936fd1706196fe34893ebd21a9f3146a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80da82dccf85d10ba475a23bf9af5800') in 0.017188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StreetLamp05_phase01.prefab
-  artifactKey: Guid(f90b66d03d8640b4fa41b029c48e3c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StreetLamp05_phase01.prefab using Guid(f90b66d03d8640b4fa41b029c48e3c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f822a708c75c7b5c58e39ffede05045') in 0.021931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.327750 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StreetLamp06.prefab
-  artifactKey: Guid(20210cc937fbd8b4b81b517fdc943c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StreetLamp06.prefab using Guid(20210cc937fbd8b4b81b517fdc943c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80422b3efc8bcfe359ee9cf14c7d8e94') in 0.022283 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StreetLamp06_phase01.prefab
-  artifactKey: Guid(bc056c1f90635084a8749f7d2fcd64ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StreetLamp06_phase01.prefab using Guid(bc056c1f90635084a8749f7d2fcd64ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a714922a124b35d4a3cd43e225a4de') in 0.031900 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/TrafficlampBig_A.prefab
-  artifactKey: Guid(ce66a8bced442a242bd0d58614867f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/TrafficlampBig_A.prefab using Guid(ce66a8bced442a242bd0d58614867f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f745db06f193a29b1ce5c10d861a9b2') in 0.024382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/StreetLamp06_destroyed.prefab
-  artifactKey: Guid(d5b75e739e3658540958db6847f491ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/StreetLamp06_destroyed.prefab using Guid(d5b75e739e3658540958db6847f491ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ccda75ca1a88f816eb4d3719cfbcb8') in 0.022050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Tank.prefab
-  artifactKey: Guid(eea23dd70f110af4ab916e29faed77ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Tank.prefab using Guid(eea23dd70f110af4ab916e29faed77ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222d1879cb8693129a7332f2af2a4e3b') in 0.048919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/TraficLampSmall_A.prefab
-  artifactKey: Guid(df997537844e63c439810cf9b230262f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/TraficLampSmall_A.prefab using Guid(df997537844e63c439810cf9b230262f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fe5ac025e3514574b7bd0386d39fd7') in 0.021189 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/TrafficlampBig_B.prefab
-  artifactKey: Guid(efecd7df99629724bb11a1b89a8f3fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/TrafficlampBig_B.prefab using Guid(efecd7df99629724bb11a1b89a8f3fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9f71e52da8371aeef73a2088ed97ad') in 0.024359 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/TraficLampSmall_B.prefab
-  artifactKey: Guid(812cf77bc78fcff4f948f10562d887b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/TraficLampSmall_B.prefab using Guid(812cf77bc78fcff4f948f10562d887b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5595828bc76ef564f66bb5a84ab752b2') in 0.021784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.188707 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/TraficLampSmall_Pedestrianlamp_A.prefab
-  artifactKey: Guid(7bb5d2cf6beeb9e47b63b7e92d6ad626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/TraficLampSmall_Pedestrianlamp_A.prefab using Guid(7bb5d2cf6beeb9e47b63b7e92d6ad626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd08afe4b5d487a66a17a8a385411b8') in 0.024750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/TraficLampSmall_PedestrianLamp_B.prefab
-  artifactKey: Guid(f77900b22ae3b764ab62baf2b0554397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/TraficLampSmall_PedestrianLamp_B.prefab using Guid(f77900b22ae3b764ab62baf2b0554397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd8d795a44e140f617e6d8f35277af7') in 0.023594 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Trash01.prefab
-  artifactKey: Guid(e2128dd80bd1eda46b0dc7f4cb9dd293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Trash01.prefab using Guid(e2128dd80bd1eda46b0dc7f4cb9dd293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3d4c0690196ace2d4be075f2b7ca8f') in 0.020474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Trash02.prefab
-  artifactKey: Guid(f096a20418ca2624f8798150f3820aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Trash02.prefab using Guid(f096a20418ca2624f8798150f3820aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e615d278ef444f63764eb426df369e94') in 0.014953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.390985 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Trash03.prefab
-  artifactKey: Guid(6c8191f57e914ba4a9dd623167306c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Trash03.prefab using Guid(6c8191f57e914ba4a9dd623167306c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b668b3c332d2ece3285f4ca8a9bd6b5') in 0.017818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Trash04.prefab
-  artifactKey: Guid(8157aa29bb34d7940846b1e1a176466c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Trash04.prefab using Guid(8157aa29bb34d7940846b1e1a176466c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7b0e21337b4c6dfe50865bad27e91e') in 0.020089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Trash06.prefab
-  artifactKey: Guid(40dcf9ca0425bb243922948275d7a217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Trash06.prefab using Guid(40dcf9ca0425bb243922948275d7a217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b6ca62e748f0bcd084c3905ae76d34') in 0.031552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Trash05.prefab
-  artifactKey: Guid(81e93831d0ab4e54b8e2e18f9352812a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Trash05.prefab using Guid(81e93831d0ab4e54b8e2e18f9352812a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa70f9ed5396156397f186982185bab2') in 0.019777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.192696 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Trash06damaged.prefab
-  artifactKey: Guid(59cb1e425bb69ed4299913a131ab3eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Trash06damaged.prefab using Guid(59cb1e425bb69ed4299913a131ab3eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2834e17e4b6146e5ab765303f52dfac') in 0.018180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/Trash07.prefab
-  artifactKey: Guid(b514910484a0cbc46ab349093f031ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/Trash07.prefab using Guid(b514910484a0cbc46ab349093f031ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df900ee8e104d49615319ddbd599575') in 0.023112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.262709 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/TrashBag01.prefab
-  artifactKey: Guid(ecb5907ccc11fad4691aa3c102718ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/TrashBag01.prefab using Guid(ecb5907ccc11fad4691aa3c102718ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4be66176a8b78be8dd929458cc6925') in 0.096255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/TrashBag02.prefab
-  artifactKey: Guid(1c22facb6d6772440a87c236d978afb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/TrashBag02.prefab using Guid(1c22facb6d6772440a87c236d978afb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6f95216a95ce07c488ed67662788ba') in 0.204997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.233851 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/TreeBase01.prefab
-  artifactKey: Guid(0b60464800150cb45bf2471442348c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/TreeBase01.prefab using Guid(0b60464800150cb45bf2471442348c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40dc642e0eb677caa29895cc90dfd710') in 0.014388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/TreeBase02.prefab
-  artifactKey: Guid(5c067d85bbb937c48813b0a9c57503dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/TreeBase02.prefab using Guid(5c067d85bbb937c48813b0a9c57503dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e4f5e18d9f8b4366e6bbe17f818264') in 0.038325 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.109892 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/VideoPhone.prefab
-  artifactKey: Guid(bece8fd20ec329c448e9356013d4dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/VideoPhone.prefab using Guid(bece8fd20ec329c448e9356013d4dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6edb3775f76d95bd2548e88a0d16b39') in 0.019128 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/WallLamp01.prefab
-  artifactKey: Guid(78f19a5ad5cfd1a40bf34a4a48b76d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/WallLamp01.prefab using Guid(78f19a5ad5cfd1a40bf34a4a48b76d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11e74170d686b4e1e0cf2970c238a98') in 0.020681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.124817 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/WallLamp02.prefab
-  artifactKey: Guid(146c2fdcc8c5ef2489ec1d5a9b3dbae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/WallLamp02.prefab using Guid(146c2fdcc8c5ef2489ec1d5a9b3dbae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98709d313214543fa85d442251823639') in 0.020129 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/ModularCityBuilder/Prefabs/Props/WallLamp03.prefab
-  artifactKey: Guid(0075c185ff52c5b47b61f0975f699fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModularCityBuilder/Prefabs/Props/WallLamp03.prefab using Guid(0075c185ff52c5b47b61f0975f699fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1611f25f28f39f8ee841d88bf8210c8e') in 0.021246 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
