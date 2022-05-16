@@ -68,7 +68,7 @@ public class Launcher : MonoBehaviourPunCallbacks  // 다른 포톤 반응 받아들이기
         }
         // CreateRoom(방이름, 방옵션)
         //new RoomOptions { MaxPlayers = 2 }
-        PhotonNetwork.CreateRoom(roomNameInputField.text, new RoomOptions { MaxPlayers = 4 });  // 포톤 네트워크기능으로 roomNameInputField.text의 이름으로 방을 만든다.
+        PhotonNetwork.CreateRoom(roomNameInputField.text, new RoomOptions { MaxPlayers = 2 });  // 포톤 네트워크기능으로 roomNameInputField.text의 이름으로 방을 만든다.
         MenuManager.Instance.OpenMenu("loading");  // 로딩창 열기
     }
 

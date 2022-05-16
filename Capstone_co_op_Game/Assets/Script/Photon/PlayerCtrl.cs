@@ -5,9 +5,15 @@ using Photon.Pun;
 using Photon.Realtime;
 using UnityStandardAssets.Utility;
 using TMPro;
+using UnityEngine.UI;
 
 public class PlayerCtrl : MonoBehaviourPunCallbacks, IPunObservable
 {
+    //[SerializeField] float sprintSpeed, walkSpeed, jumpForce;
+    //뛰는속도 걷는속도 점프힘 뛰기걷기바꿀때 가속시간
+    bool grounded;//점프를 위한 바닥체크
+    Rigidbody rb;
+
     public PhotonView pv;
     public SpriteRenderer SR;
 
@@ -17,9 +23,12 @@ public class PlayerCtrl : MonoBehaviourPunCallbacks, IPunObservable
 
     public float movespeed = 5.0f;
     public float rotSpeed = 60.0f;
+    public float jumpForce = 300.0f;
 
-    public TextMeshPro nickName;
-    TextMeshProUGUI resourceText;
+    //public TextMeshPro nickName;
+    // TextMeshProUGUI resourceText;
+
+    //public Text a;
 
     private Vector3 currPos;
     private Quaternion currRot;
@@ -30,6 +39,8 @@ public class PlayerCtrl : MonoBehaviourPunCallbacks, IPunObservable
     // Start is called before the first frame update
     void Start()
     {
+        rb = GetComponent<Rigidbody>();
+
         tr = GetComponent<Transform>();
         anim = GetComponent<Animator>();
         pv = GetComponent<PhotonView>();
@@ -43,7 +54,8 @@ public class PlayerCtrl : MonoBehaviourPunCallbacks, IPunObservable
         }
         
 
-        resourceText.text = pv.Owner.NickName;
+        //resourceText.text = pv.Owner.NickName;
+        //a.text = pv.Owner.NickName;
     }
 
     // Update is called once per frame
@@ -51,34 +63,8 @@ public class PlayerCtrl : MonoBehaviourPunCallbacks, IPunObservable
     {
         if (pv.IsMine)
         {
-            v = Input.GetAxis("Vertical");
-            h = Input.GetAxis("Horizontal");
-            r = Input.GetAxis("Mouse X");
-
-            Vector3 moveDir = (Vector3.forward * v) + (Vector3.right * h);
-            if (moveDir != Vector3.zero)
-            {
-                tr.position += moveDir * movespeed * Time.deltaTime;
-                tr.LookAt(transform.position + moveDir);
-                anim.SetBool("isMoving", true);
-            }
-            else
-            {
-                anim.SetBool("isMoving", false);
-            }
-            
-            /*float axis = Input.GetAxisRaw("Horizontal");
-            tr.Translate(new Vector3(axis * Time.deltaTime * 7, 0, 0));
-
-            if(axis != 0)
-            {
-                pv.RPC("FilpXRPC", RpcTarget.AllBuffered, axis);
-                anim.SetBool("isMoving", true);
-            }
-            else
-            {
-                anim.SetBool("isMoving", false);
-            }*/
+            move();
+            Jump();
         }
         else
         {
@@ -95,6 +81,40 @@ public class PlayerCtrl : MonoBehaviourPunCallbacks, IPunObservable
         {
             //anim.CrossFade(애니메이션 이름);  애니메이션 전환을 부드럽게 해줌
         }*/
+    }
+    void move()
+    {
+        v = Input.GetAxis("Vertical");
+        h = Input.GetAxis("Horizontal");
+
+        Vector3 moveDir = (Vector3.forward * v) + (Vector3.right * h);
+        if (moveDir != Vector3.zero)
+        {
+            tr.position += moveDir * movespeed * Time.deltaTime;
+            tr.LookAt(transform.position + moveDir);
+            anim.SetBool("isMoving", true);
+        }
+        else
+        {
+            anim.SetBool("isMoving", false);
+        }
+    }
+    void Jump()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && grounded)//땅위에서 스페이스바 누르면
+        {
+            rb.AddForce(transform.up * jumpForce);//점프력만큼위로 힘받음
+            anim.SetBool("isJumping", true);
+        }
+        else
+        {
+            anim.SetBool("isJumping", false);
+        }
+    }
+
+    public void SetGroundedState(bool _grounded)
+    {
+        grounded = _grounded;
     }
 
     [PunRPC]
