@@ -2527,7 +2527,7 @@ Animator:
   m_GameObject: {fileID: 7898629165562484801}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ccad3fc726cb7604b9de3171db13668e, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2030825ee7e20a641b65e71762212678, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2632,9 +2632,9 @@ MonoBehaviour:
   pv: {fileID: 846454807020895642}
   SR: {fileID: 846454807020895638}
   anim: {fileID: 7898629165562484800}
-  movespeed: 5
+  movespeed: 10
   rotSpeed: 60
-  jumpForce: 300
+  jumpForce: 600
 --- !u!114 &846454807020895642
 MonoBehaviour:
   m_ObjectHideFlags: 0
