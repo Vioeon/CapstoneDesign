@@ -33,6 +33,8 @@ public class PlayerCtrl : MonoBehaviourPunCallbacks, IPunObservable
     private Vector3 currPos;
     private Quaternion currRot;
 
+    MapManager MM;
+
     //private float timer = 0.0f;
     //private bool Mstate = true;
 
@@ -116,6 +118,32 @@ public class PlayerCtrl : MonoBehaviourPunCallbacks, IPunObservable
     {
         grounded = _grounded;
     }
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Gpu_RankItem")  // 등급아이템을 먹으면
+        {
+            PhotonNetwork.Destroy(other.gameObject);  // 등급아이템 삭제
+            MM.Gpu_rank++;
+        }
+        else if (other.gameObject.tag == "Cpu_RankItem")  // 등급아이템을 먹으면
+        {
+            PhotonNetwork.Destroy(other.gameObject);  // 등급아이템 삭제
+            MM.Cpu_rank++;
+        }
+        else if (other.gameObject.tag == "Cooler_RankItem")  // 등급아이템을 먹으면
+        {
+            PhotonNetwork.Destroy(other.gameObject);  // 등급아이템 삭제
+            MM.Cooler_rank++;
+        }
+        else if (other.gameObject.tag == "Power_RankItem")  // 등급아이템을 먹으면
+        {
+            PhotonNetwork.Destroy(other.gameObject);  // 등급아이템 삭제
+            MM.Power_rank++;
+        }
+    }
+
 
     [PunRPC]
     void FilpXRPC(float axis)
