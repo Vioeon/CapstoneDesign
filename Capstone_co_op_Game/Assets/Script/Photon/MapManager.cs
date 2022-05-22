@@ -9,16 +9,6 @@ public class MapManager : MonoBehaviourPun
 {
     public int playercount = 0;
 
-    public int ClearNum = 0;
-
-    public int Gpu_rank = 0;
-    public int Cpu_rank = 0;
-    public int Cooler_rank = 0;
-    public int Power_rank = 0;
-
-    public int getRankItem = 0;
-    public int Tot_rank = 0;
-
     PhotonView PV;
     Launcher NM;
 
@@ -52,25 +42,19 @@ public class MapManager : MonoBehaviourPun
     void Update()
     {
         //if (!PV.IsMine) return;
-
-        if(getRankItem == 0)  // 등급아이템을 하나도 못먹으면
-        {
-            return;
-        }
-        else
-        {
-            RankObj[0].SetActive(false);  // 기본 부품 false
-            RankObj[getRankItem].SetActive(true);  // 등급아이템을 먹은 갯수에 따라 부품 교체
-        }
-
-        isClear();
+        //isClear();
     }
 
     void isClear()
     {
-        if(ClearNum == 4)
+        SaveData loadData = SaveSystem.Load("save_001");
+        SaveData savedata = new SaveData(loadData.Stage, loadData.ClearNum++, loadData.getRankItem, loadData.Tot_rank += loadData.getRankItem);
+        SaveSystem.Save(savedata, "save_001");
+
+        if (loadData.ClearNum == 4)
         {
             //MenuManager.Instance.OpenMenu(" ");  // 클리어 이펙트 효과
+            MenuManager.Instance.OpenMenu("loading");
             PhotonNetwork.LoadLevel("EndScene");  // 엔딩 씬으로 이동
         }
     }

@@ -122,6 +122,17 @@ public class PlayerCtrl : MonoBehaviourPunCallbacks, IPunObservable
 
     private void OnTriggerEnter(Collider other)
     {
+        if (other.gameObject.tag == "rankItem")  // 등급아이템을 먹으면
+        {
+            PhotonNetwork.Destroy(other.gameObject);  // 등급아이템 삭제
+
+            // 획득한 등급아이템 갯수 ++ 증가
+            SaveData loadData = SaveSystem.Load("save_001");
+            SaveData savedata = new SaveData(loadData.Stage, loadData.ClearNum, loadData.getRankItem++, loadData.Tot_rank);
+            SaveSystem.Save(savedata, "save_001");
+        }
+
+        /*
         if (other.gameObject.tag == "Gpu_RankItem")  // 등급아이템을 먹으면
         {
             PhotonNetwork.Destroy(other.gameObject);  // 등급아이템 삭제
@@ -141,7 +152,7 @@ public class PlayerCtrl : MonoBehaviourPunCallbacks, IPunObservable
         {
             PhotonNetwork.Destroy(other.gameObject);  // 등급아이템 삭제
             MM.Power_rank++;
-        }
+        }*/
     }
 
 
