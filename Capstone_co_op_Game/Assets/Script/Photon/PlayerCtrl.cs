@@ -21,7 +21,7 @@ public class PlayerCtrl : MonoBehaviourPunCallbacks, IPunObservable
     private Transform tr;
     public Animator anim;
 
-    public float movespeed = 5.0f;
+    public float movespeed = 15.0f;
     public float rotSpeed = 60.0f;
     public float jumpForce = 300.0f;
 
@@ -120,16 +120,23 @@ public class PlayerCtrl : MonoBehaviourPunCallbacks, IPunObservable
     }
 
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.tag == "rankItem")  // 등급아이템을 먹으면
+        if (!pv.IsMine)
         {
-            PhotonNetwork.Destroy(other.gameObject);  // 등급아이템 삭제
+            return;
+        }
+        else if (other.gameObject.tag == "rankItem")  // 등급아이템을 먹으면
+        {
+            Destroy(other.gameObject);  // 등급아이템 삭제
+            //pv.RPC("DestroyItem", RpcTarget.All, other.gameObject);
 
             // 획득한 등급아이템 갯수 ++ 증가
             SaveData loadData = SaveSystem.Load("save_001");
-            SaveData savedata = new SaveData(loadData.Stage, loadData.ClearNum, loadData.getRankItem++, loadData.Tot_rank);
+            SaveData savedata = new SaveData(loadData.Stage, loadData.ClearNum, loadData.getRankItem + 1, loadData.Tot_rank);
+            Debug.Log("GetRankItem:  " + loadData.getRankItem);
             SaveSystem.Save(savedata, "save_001");
+
         }
 
         /*
@@ -155,11 +162,12 @@ public class PlayerCtrl : MonoBehaviourPunCallbacks, IPunObservable
         }*/
     }
 
-
     [PunRPC]
-    void FilpXRPC(float axis)
+    void DestroyItem(GameObject obj)
     {
-        SR.flipX = axis == -1;
+        if (!pv.IsMine)
+            return;
+        Destroy(obj);
     }
 
     // 상태를 동기화 시켜주는 메소드

@@ -63,37 +63,19 @@ public class PortalManager : MonoBehaviourPun
             // 획득한 등급별의 숫자
 
             MM.playercount++;
+            Debug.Log("Enterplayercount : " + MM.playercount);
 
-            if(MM.playercount == 2)   // 두명의 플레이어가 모두  충돌 중일때 작동
+            if (MM.playercount == 2)   // 두명의 플레이어가 모두  충돌 중일때 작동
             {
                 MM.playercount = 0;  // 변수 초기화
 
                 // 클리어 갯수++, 획득한 총 등급아이템 갱신
                 SaveData loadData = SaveSystem.Load("save_001");
-                SaveData savedata = new SaveData(loadData.Stage, loadData.ClearNum++, loadData.getRankItem, loadData.Tot_rank+=loadData.getRankItem);
+                SaveData savedata = new SaveData(loadData.Stage, loadData.ClearNum + 1, loadData.getRankItem, loadData.Tot_rank+=loadData.getRankItem);
                 SaveSystem.Save(savedata, "save_001");
 
                 MenuManager.Instance.OpenMenu("loading");
                 PhotonNetwork.LoadLevel("MainPlace");
-
-                SaveData loadData2 = SaveSystem.Load("save_001");
-
-                if (loadData2.getRankItem == 0)
-                {
-                    return;  // 기본 부품으로 유지
-                }
-                else
-                {
-                    GameObject.Find(loadData2.Stage).transform.GetChild(3).gameObject.SetActive(false);  // 기본 부품 비활성화
-                    GameObject.Find(loadData2.Stage).transform.GetChild(loadData2.getRankItem + 3).gameObject.SetActive(true); // 등급아이템을 먹은 갯수에 따라 부품 활성화
-                }
-
-                if (loadData2.ClearNum == 4)
-                {
-                    //MenuManager.Instance.OpenMenu(" ");  // 클리어 이펙트 효과
-                    MenuManager.Instance.OpenMenu("loading");
-                    PhotonNetwork.LoadLevel("EndScene");  // 엔딩 씬으로 이동
-                }
             }
             
         }
@@ -108,6 +90,7 @@ public class PortalManager : MonoBehaviourPun
         else if (other.gameObject.tag == "ClearPortal")
         {
             MM.playercount--;
+            Debug.Log("Exitplayercount : " + MM.playercount);
         }
     }
 }

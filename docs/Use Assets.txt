@@ -1,0 +1,46 @@
+● 캐릭터
+ - Low poly characters 2 05
+  https://assetstore.unity.com/packages/3d/characters/low-poly-characters-2-05-205408  [ $99 ]
+
+● 몬스터
+ - 쿼터뷰 3D 액션 에셋 팩
+  https://assetstore.unity.com/packages/3d/characters/quarter-view-3d-action-assets-pack-188720  [ FREE ]
+ - Castle Guard
+  https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/castle-guard-86829  [ $13 ]
+
+● cpu(신전, 내부 미로)
+ - 외부맵 : The Lost Temple
+  https://assetstore.unity.com/packages/3d/environments/fantasy/the-lost-temple-184661  [ $29.99 ]
+ - 내부맵 : Fantasy Asset Pack
+  https://assetstore.unity.com/packages/3d/environments/fantasy/fantasy-asset-pack-130407  [ $14.99 ]
+
+● 메인보드(빛 반사 미로맵)
+● 파워(폭탄해체맵) 
+- Module Based City Pack
+  https://assetstore.unity.com/packages/3d/environments/urban/module-based-city-pack-154302  [ $45 ] - [ 할인특가 $11.25 ]
+
+● 쿨러(사막협곡맵) 
+- Canyon Terrain
+  https://assetstore.unity.com/packages/3d/environments/landscapes/canyon-terrain-137822  [ $55 ]
+
+● 그래픽카드(성 등반)
+ - 외부맵 : POLYSTYLE - Medieval Castle
+  https://assetstore.unity.com/packages/3d/environments/fantasy/polystyle-medieval-castle-182165  [ $79.99 ]
+ - 내부맵 : Castle
+  https://assetstore.unity.com/packages/3d/environments/sci-fi/castle-93229  [ $25 ]
+
+● 메인로비
+ - 포탈 : Fantasy Portal FX
+  https://assetstore.unity.com/packages/vfx/particles/spells/fantasy-portal-fx-169581  [ $15 ]
+ - 배경부품 : POLY computer constructor
+  https://assetstore.unity.com/packages/3d/props/poly-computer-constructor-204016  [ $20 ]
+
+● 이펙트
+ - 레이저 : 3D Advanced Lasers Pack
+  https://assetstore.unity.com/packages/tools/particles-effects/3d-advanced-lasers-pack-220425  [ $7 ]
+
+● UI
+ - GUI PRO Kit - Fantasy RPG
+  https://assetstore.unity.com/packages/2d/gui/gui-pro-kit-fantasy-rpg-170168  [ $29.99 ]
+
+--------------------------

@@ -2633,7 +2633,7 @@ MonoBehaviour:
   pv: {fileID: 846454807020895642}
   SR: {fileID: 846454807020895638}
   anim: {fileID: 7898629165562484800}
-  movespeed: 10
+  movespeed: 15
   rotSpeed: 60
   jumpForce: 650
 --- !u!114 &846454807020895642

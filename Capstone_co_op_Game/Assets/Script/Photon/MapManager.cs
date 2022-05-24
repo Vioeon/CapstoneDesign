@@ -14,9 +14,6 @@ public class MapManager : MonoBehaviourPun
 
     public string Stage = null;
 
-    public GameObject[] RankObj = null;
-
-
     public static MapManager Instance;//Room Manager 스크립트를 메서드로 사용하기 위해 선언
 
     void Awake()
@@ -43,19 +40,5 @@ public class MapManager : MonoBehaviourPun
     {
         //if (!PV.IsMine) return;
         //isClear();
-    }
-
-    void isClear()
-    {
-        SaveData loadData = SaveSystem.Load("save_001");
-        SaveData savedata = new SaveData(loadData.Stage, loadData.ClearNum++, loadData.getRankItem, loadData.Tot_rank += loadData.getRankItem);
-        SaveSystem.Save(savedata, "save_001");
-
-        if (loadData.ClearNum == 4)
-        {
-            //MenuManager.Instance.OpenMenu(" ");  // 클리어 이펙트 효과
-            MenuManager.Instance.OpenMenu("loading");
-            PhotonNetwork.LoadLevel("EndScene");  // 엔딩 씬으로 이동
-        }
     }
 }
