@@ -21,9 +21,9 @@ public class MainPlaceManager : MonoBehaviour
         }
         else
         {
-            GameObject.Find(loadData.Stage).transform.GetChild(0).gameObject.SetActive(false);  // 포탈 비활성화
-            GameObject.Find(loadData.Stage).transform.GetChild(1).gameObject.SetActive(false);  // 기본 부품 비활성화
-            GameObject.Find(loadData.Stage).transform.GetChild((loadData.getRankItem)/2 + 1).gameObject.SetActive(true); // 등급아이템을 먹은 갯수에 따라 부품 활성화
+            GameObject.Find(loadData.Stage + "_g").transform.GetChild(0).gameObject.SetActive(false);  // 포탈 비활성화
+            GameObject.Find(loadData.Stage + "_g").transform.GetChild(1).gameObject.SetActive(false);  // 기본 부품 비활성화
+            GameObject.Find(loadData.Stage + "_g").transform.GetChild((loadData.getRankItem)/2 + 1).gameObject.SetActive(true); // 등급아이템을 먹은 갯수에 따라 부품 활성화
 
             // 스테이지, 획득한 등급아이템 갯수 초기화
             SaveData savedata = new SaveData(null, loadData.ClearNum, 0, loadData.Tot_rank);

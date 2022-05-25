@@ -25,6 +25,8 @@ public class PlayerCtrl : MonoBehaviourPunCallbacks, IPunObservable
     public float rotSpeed = 60.0f;
     public float jumpForce = 300.0f;
 
+    AudioSource audio;
+
     //public TextMeshPro nickName;
     // TextMeshProUGUI resourceText;
 
@@ -48,6 +50,7 @@ public class PlayerCtrl : MonoBehaviourPunCallbacks, IPunObservable
         pv = GetComponent<PhotonView>();
 
         pv.ObservedComponents[0] = this; // 동기화 콜백함수 발생 시 필요
+        this.audio = GetComponent<AudioSource>();
 
         if (pv.IsMine)
         {
@@ -106,11 +109,12 @@ public class PlayerCtrl : MonoBehaviourPunCallbacks, IPunObservable
         if (Input.GetKeyDown(KeyCode.Space) && grounded)//땅위에서 스페이스바 누르면
         {
             rb.AddForce(transform.up * jumpForce);//점프력만큼위로 힘받음
-            anim.SetBool("isJumping", true);
+            //사운드
+            audio.Play();
         }
         else
         {
-            anim.SetBool("isJumping", false);
+            return;
         }
     }
 
