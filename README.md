@@ -6,8 +6,11 @@
 <br><br>
 ## Title화면  
 <img width="80%" src="https://user-images.githubusercontent.com/31684326/170236001-ee510f02-f357-429a-8699-7160aa799af1.jpg">   
+
 * 닉네임을 입력하여 플레이어 이름 설정  
+
 * Create Room을 통해 룸을 생성  
+
 * Find Room에서 생성된 룸 리스트를 확인할 수 있으며 해당룸을 클릭하여 룸 참여 가능  
   
 ## 메인로비   
