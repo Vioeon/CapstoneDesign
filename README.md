@@ -4,15 +4,20 @@
 고장난 컴퓨터를 고치기 위해 본체의 부품속으로 들어가 협동을 통해 퍼즐을 풀며 수리를 하는 게임  
 
 ### 일정  
+<img width="100%" src="https://user-images.githubusercontent.com/31684326/170504602-f7ea89e2-bce0-4a84-afc7-b94948ac2617.jpg">  
+
 ### 아키텍쳐  
-<img width="80%" src="https://user-images.githubusercontent.com/31684326/170494668-5c7fa162-4a06-4c9d-b2ae-c4e12b9c0791.PNG">  
+<img width="100%" src="https://user-images.githubusercontent.com/31684326/170494668-5c7fa162-4a06-4c9d-b2ae-c4e12b9c0791.PNG">  
 
 ### 스크립트  
-<img width="80%" src="https://user-images.githubusercontent.com/31684326/170492010-2edd7fa6-4aa5-43ca-a45e-939efa7f17ca.png">   
+<img width="100%" src="https://user-images.githubusercontent.com/31684326/170492010-2edd7fa6-4aa5-43ca-a45e-939efa7f17ca.png">   
 
 ### 설계  
 #### UI 설계서  
+
 ### 테스트  
+<img width="100%" src="https://user-images.githubusercontent.com/31684326/170503325-2c9c4f3b-dafc-4541-a13a-63f71d657064.jpg">   
+
 
 ## Title화면  
 <img width="80%" src="https://user-images.githubusercontent.com/31684326/170236001-ee510f02-f357-429a-8699-7160aa799af1.jpg">   
