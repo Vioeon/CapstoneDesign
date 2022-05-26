@@ -8,6 +8,8 @@
 ### 일정  
 ### 요구사항  
 ### 아키텍쳐  
+### 스크립트  
+<img width="80%" src="https://user-images.githubusercontent.com/31684326/170492010-2edd7fa6-4aa5-43ca-a45e-939efa7f17ca.png">   
 ### 설계  
 #### UI 설계서  
 ### 테스트  
