@@ -5,6 +5,8 @@
 
 ### 일정  
 ### 아키텍쳐  
+<img width="80%" src="https://user-images.githubusercontent.com/31684326/170494668-5c7fa162-4a06-4c9d-b2ae-c4e12b9c0791.PNG">  
+
 ### 스크립트  
 <img width="80%" src="https://user-images.githubusercontent.com/31684326/170492010-2edd7fa6-4aa5-43ca-a45e-939efa7f17ca.png">   
 
