@@ -1,3 +1,2 @@
 # 일정표														
-![image](https://user-images.githubusercontent.com/31840446/170500413-5bc1e5ed-b48f-4065-85a4-026d9c6451d9.png)
-
+<img width="100%" src="https://user-images.githubusercontent.com/31684326/170504602-f7ea89e2-bce0-4a84-afc7-b94948ac2617.jpg">   
