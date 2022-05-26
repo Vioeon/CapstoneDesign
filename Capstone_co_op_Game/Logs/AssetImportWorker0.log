@@ -15,11 +15,11 @@ D:/_Github/CapstoneDesign/Capstone_co_op_Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55977
+53532
 Successfully changed project path to: D:/_Github/CapstoneDesign/Capstone_co_op_Game
 D:/_Github/CapstoneDesign/Capstone_co_op_Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 136.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 136.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path D:/Unity editer/Unity 2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,313 +35,90 @@ Initialize mono
 Mono path[0] = 'D:/Unity editer/Unity 2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity editer/Unity 2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity editer/Unity 2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity editer/Unity 2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002539 seconds.
+Registered in 0.001894 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 138.91 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 130.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.872 seconds
+- Completed reload, in  0.895 seconds
 Domain Reload Profiling:
-	ReloadAssembly (873ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (895ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (678ms)
-			LoadAssemblies (99ms)
+		EndReloadAssembly (676ms)
+			LoadAssemblies (134ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
+			SetupTypeCache (206ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (300ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (283ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (139ms)
+				RefreshPlugins (131ms)
 				BeforeProcessingInitializeOnLoad (21ms)
-				ProcessInitializeOnLoadAttributes (100ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008972 seconds.
+Registered in 0.030444 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\_Github\CapstoneDesign\Capstone_co_op_Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 130.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 127.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.606 seconds
+- Completed reload, in  1.523 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1607ms)
-		BeginReloadAssembly (222ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (1314ms)
-			LoadAssemblies (170ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (424ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (531ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (131ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (290ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 193.2 MB.
-System memory in use after: 193.2 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2665.
-Total: 3.678200 ms (FindLiveObjects: 0.332200 ms CreateObjectMapping: 0.198500 ms MarkObjects: 3.000500 ms  DeleteObjects: 0.145800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/20 Logos PSD/PSD/Title 2.psd
-  artifactKey: Guid(f529dc07aa5992e48bb9db6b0c92cb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/20 Logos PSD/PSD/Title 2.psd using Guid(f529dc07aa5992e48bb9db6b0c92cb6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74aa9de1207399df743bd2a1f1d8af14') in 0.175578 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.398246 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\_Github\CapstoneDesign\Capstone_co_op_Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.646 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4647ms)
-		BeginReloadAssembly (623ms)
+	ReloadAssembly (1524ms)
+		BeginReloadAssembly (201ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (3923ms)
-			LoadAssemblies (2618ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (353ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (906ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (651ms)
-				ProcessInitializeOnLoadMethodAttributes (149ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2171 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 198.1 MB.
-System memory in use after: 198.2 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2676.
-Total: 3.696200 ms (FindLiveObjects: 0.206800 ms CreateObjectMapping: 0.097600 ms MarkObjects: 3.366600 ms  DeleteObjects: 0.024100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 456.947047 seconds.
-  path: Assets/Cool Visual Effects - Part 1/Cold Night by AllSkyFree.png
-  artifactKey: Guid(97259d0c0ea9f491692be825da27978a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cool Visual Effects - Part 1/Cold Night by AllSkyFree.png using Guid(97259d0c0ea9f491692be825da27978a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5651b92ef658ee2cd4958f6359ef64cf') in 0.653480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/Cool Visual Effects - Part 1/arial.ttf
-  artifactKey: Guid(2fe023d45160ff249bb7f0ce55e60fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cool Visual Effects - Part 1/arial.ttf using Guid(2fe023d45160ff249bb7f0ce55e60fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bafd0e0d9533bd7132a7b0148c8f6ee1') in 0.155787 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Cool Visual Effects - Part 1/Effects/Fireworks/Fireworks1.vfx
-  artifactKey: Guid(e5831baf0d2f8e04887d1603d6ebd058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cool Visual Effects - Part 1/Effects/Fireworks/Fireworks1.vfx using Guid(e5831baf0d2f8e04887d1603d6ebd058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7b4c58d5e11e5967008827e7f976a9') in 0.016375 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000448 seconds.
-  path: Assets/Cool Visual Effects - Part 1/Effects/Fireworks/Fireworks2.vfx
-  artifactKey: Guid(8a07c7c2e5d76e94f9079f07db71813f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cool Visual Effects - Part 1/Effects/Fireworks/Fireworks2.vfx using Guid(8a07c7c2e5d76e94f9079f07db71813f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ef5b3c7dc60c61d4f3c401f430b064') in 0.012025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Cool Visual Effects - Part 1/Effects/Fireworks/Fireworks3.vfx
-  artifactKey: Guid(d1653edd89d8ea74cafc5f1f74db55ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cool Visual Effects - Part 1/Effects/Fireworks/Fireworks3.vfx using Guid(d1653edd89d8ea74cafc5f1f74db55ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fba3159e9c03ce793e88814ae842f76') in 0.009821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.774853 seconds.
-  path: Assets/Cool Visual Effects - Part 1/Effects/Magic Ball/Magic Ball.vfx
-  artifactKey: Guid(851c87b601a57e443b19b37b6ae92621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cool Visual Effects - Part 1/Effects/Magic Ball/Magic Ball.vfx using Guid(851c87b601a57e443b19b37b6ae92621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8926219a259233ce9cf0acc8a0b54ce') in 0.010020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.349793 seconds.
-  path: Assets/Cool Visual Effects - Part 1/Effects/Portals/Portal1.vfx
-  artifactKey: Guid(0cc83dfeaae0cac4caec995a84d8efa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cool Visual Effects - Part 1/Effects/Portals/Portal1.vfx using Guid(0cc83dfeaae0cac4caec995a84d8efa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8564a5eae0bf98c3ca49f0f316a610e9') in 0.008451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000493 seconds.
-  path: Assets/Cool Visual Effects - Part 1/Effects/Portals/Portal2.vfx
-  artifactKey: Guid(731ed5960ed955243910de1f66a2c19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cool Visual Effects - Part 1/Effects/Portals/Portal2.vfx using Guid(731ed5960ed955243910de1f66a2c19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54ac11383cc6f6c0b200b8eb581e93a') in 0.839606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/Cool Visual Effects - Part 1/Effects/Snow/Snow.vfx
-  artifactKey: Guid(a2062580d66ff594580f59b13ee1d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cool Visual Effects - Part 1/Effects/Snow/Snow.vfx using Guid(a2062580d66ff594580f59b13ee1d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b479c4e0cbeab594e696a070625c3eb') in 0.019299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000970 seconds.
-  path: Assets/Cool Visual Effects - Part 1/Effects/Starfield/Starfield.vfx
-  artifactKey: Guid(cd9df07b08ded8b4fa9dde45a583bd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cool Visual Effects - Part 1/Effects/Starfield/Starfield.vfx using Guid(cd9df07b08ded8b4fa9dde45a583bd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d449257dc02e755d0bc736275b2269') in 0.032315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.716228 seconds.
-  path: Assets/Cool Visual Effects - Part 1/3D models and pcaches/Tree.fbx
-  artifactKey: Guid(953fe8508e4a3184fa064b4a5373aa48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cool Visual Effects - Part 1/3D models and pcaches/Tree.fbx using Guid(953fe8508e4a3184fa064b4a5373aa48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca7e7e18c71233a9575f4d198183410') in 1.088113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.550238 seconds.
-  path: Assets/Cool Visual Effects - Part 1/Settings/Example Scene.asset
-  artifactKey: Guid(a03b2dcdb3a880847af03dc44151c083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cool Visual Effects - Part 1/Settings/Example Scene.asset using Guid(a03b2dcdb3a880847af03dc44151c083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2757d5a45b10b63267ab4b22a3223dfc') in 0.012539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.157365 seconds.
-  path: Assets/Cool Visual Effects - Part 1/Textures/Concrete_Albedo.tif
-  artifactKey: Guid(2d172fff0cf60d545bed90804f2f0c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cool Visual Effects - Part 1/Textures/Concrete_Albedo.tif using Guid(2d172fff0cf60d545bed90804f2f0c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b1f628d409a3b91d0855b95f9fa5f1') in 0.203794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000892 seconds.
-  path: Assets/Cool Visual Effects - Part 1/Textures/Concrete_Normal.tif
-  artifactKey: Guid(edc7910de9148ff43ac7714d19796ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cool Visual Effects - Part 1/Textures/Concrete_Normal.tif using Guid(edc7910de9148ff43ac7714d19796ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e705947c45c096784c59a8d42faf1ae6') in 0.079436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Cool Visual Effects - Part 1/Textures/snowflake.png
-  artifactKey: Guid(82c8e95db0ddfc94d94bb3dbeb30818d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cool Visual Effects - Part 1/Textures/snowflake.png using Guid(82c8e95db0ddfc94d94bb3dbeb30818d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8469632fa913aa912347f55fcffe6535') in 0.038813 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.731248 seconds.
-  path: Assets/Cool Visual Effects - Part 1/Materials/Cold Night by AllSkyFree.mat
-  artifactKey: Guid(71e1b44e9c7459940875167dc308d849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cool Visual Effects - Part 1/Materials/Cold Night by AllSkyFree.mat using Guid(71e1b44e9c7459940875167dc308d849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c545f6a7cda76e4ebf53569175816021') in 1.856843 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/Cool Visual Effects - Part 1/Materials/Ground.mat
-  artifactKey: Guid(4b12698b308bc8a468677359b503acb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cool Visual Effects - Part 1/Materials/Ground.mat using Guid(4b12698b308bc8a468677359b503acb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625821d28cefd4606385bb14f80f0d91') in 0.037261 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008702 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\_Github\CapstoneDesign\Capstone_co_op_Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.315 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1316ms)
-		BeginReloadAssembly (161ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1079ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1250ms)
 			LoadAssemblies (153ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (370ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (418ms)
+			SetupTypeCache (408ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (505ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (310ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (128ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (273ms)
 				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.50 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2169 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 198.5 MB.
-System memory in use after: 198.7 MB.
+Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.0 MB.
+System memory in use after: 193.0 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2725.
-Total: 3.498700 ms (FindLiveObjects: 0.286200 ms CreateObjectMapping: 0.210100 ms MarkObjects: 2.978100 ms  DeleteObjects: 0.023200 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2665.
+Total: 4.842600 ms (FindLiveObjects: 0.248100 ms CreateObjectMapping: 0.146300 ms MarkObjects: 4.303100 ms  DeleteObjects: 0.143400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -356,264 +133,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 179.962181 seconds.
   path: Assets/Scenes/EndScene.unity
   artifactKey: Guid(b58bd7423abcd6d4a94e857db56adc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/EndScene.unity using Guid(b58bd7423abcd6d4a94e857db56adc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481a12856c9f2008745b59933b92e88c') in 0.401487 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008810 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\_Github\CapstoneDesign\Capstone_co_op_Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.242 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1242ms)
-		BeginReloadAssembly (152ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1022ms)
-			LoadAssemblies (145ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (362ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (382ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2169 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 198.5 MB.
-System memory in use after: 198.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2728.
-Total: 3.669500 ms (FindLiveObjects: 0.216400 ms CreateObjectMapping: 0.119900 ms MarkObjects: 3.304700 ms  DeleteObjects: 0.027600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Start importing Assets/Scenes/EndScene.unity using Guid(b58bd7423abcd6d4a94e857db56adc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684f829264b4d2a4611b02ac218dbe0e') in 0.057862 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 283.144119 seconds.
-  path: Assets/Script/Photon/MainPlaceManager.cs
-  artifactKey: Guid(c6e225f585288224fb36ca45e68cefe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Photon/MainPlaceManager.cs using Guid(c6e225f585288224fb36ca45e68cefe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8dd05362fd97a180fb5d96e56096f20') in 0.045612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 46.295034 seconds.
-  path: Assets/Script/Photon/MainPlaceManager.cs
-  artifactKey: Guid(c6e225f585288224fb36ca45e68cefe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Photon/MainPlaceManager.cs using Guid(c6e225f585288224fb36ca45e68cefe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3515dbc017e3a7e035916c215a395384') in 0.016627 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013432 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\_Github\CapstoneDesign\Capstone_co_op_Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.842 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2845ms)
-		BeginReloadAssembly (577ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (66ms)
-		EndReloadAssembly (2141ms)
-			LoadAssemblies (865ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (747ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (89ms)
-			SetupLoadedEditorAssemblies (607ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (122ms)
-				ProcessInitializeOnLoadAttributes (421ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (36ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2169 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 198.6 MB.
-System memory in use after: 198.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2731.
-Total: 6.245300 ms (FindLiveObjects: 0.587600 ms CreateObjectMapping: 0.309900 ms MarkObjects: 5.304200 ms  DeleteObjects: 0.041600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 157.217649 seconds.
-  path: Assets/Script/Photon/PlayerCtrl.cs
-  artifactKey: Guid(20172a8ed9e38a346bfb80e1a5b88426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Photon/PlayerCtrl.cs using Guid(20172a8ed9e38a346bfb80e1a5b88426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df5a19a7c5157d74ee00b839b94e792') in 0.056406 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.099196 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\_Github\CapstoneDesign\Capstone_co_op_Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.489 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4489ms)
-		BeginReloadAssembly (424ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (3991ms)
-			LoadAssemblies (2886ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (646ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (518ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (308ms)
-				ProcessInitializeOnLoadMethodAttributes (116ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2169 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 198.5 MB.
-System memory in use after: 198.7 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2734.
-Total: 3.618000 ms (FindLiveObjects: 0.240100 ms CreateObjectMapping: 0.108800 ms MarkObjects: 3.243400 ms  DeleteObjects: 0.024700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 78.746524 seconds.
-  path: Assets/Scenes/MainPlace.unity
-  artifactKey: Guid(ac55059dbb78f844e9b3e3714e7e8aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainPlace.unity using Guid(ac55059dbb78f844e9b3e3714e7e8aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21fcfd9acce7843c9198037a6dfcf088') in 0.095841 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007806 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\_Github\CapstoneDesign\Capstone_co_op_Game\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.808 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1809ms)
-		BeginReloadAssembly (241ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (1447ms)
-			LoadAssemblies (215ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (426ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (618ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (282ms)
-				ProcessInitializeOnLoadAttributes (314ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2169 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 198.6 MB.
-System memory in use after: 198.8 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2737.
-Total: 4.426600 ms (FindLiveObjects: 0.237000 ms CreateObjectMapping: 0.093600 ms MarkObjects: 4.039700 ms  DeleteObjects: 0.055300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 29.928820 seconds.
+  path: Assets/-_3.mp3
+  artifactKey: Guid(5be89b41ead09e04d8566e99e4a8bccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/-_3.mp3 using Guid(5be89b41ead09e04d8566e99e4a8bccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769f451a380d7b6704952c83f5b21965') in 0.376702 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
