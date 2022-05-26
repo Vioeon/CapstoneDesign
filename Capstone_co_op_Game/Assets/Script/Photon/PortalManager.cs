@@ -82,7 +82,12 @@ public class PortalManager : MonoBehaviourPun
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Portal")
+        if (other.gameObject.tag == "StartPortal")
+        {
+            MM.playercount--;
+            Debug.Log("Exitplayercount : " + MM.playercount);
+        }
+        else if (other.gameObject.tag == "Portal")
         {
             MM.playercount--;
             Debug.Log("Exitplayercount : " + MM.playercount);

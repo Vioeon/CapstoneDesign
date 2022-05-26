@@ -3446,6 +3446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2_CPU_Outside
       objectReference: {fileID: 0}
+    - target: {fileID: 8146945815932686852, guid: d8a0d0771a6fd6744bee09e7d4877d7c, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8a0d0771a6fd6744bee09e7d4877d7c, type: 3}
 --- !u!1001 &6705902978987550348
@@ -3684,6 +3688,10 @@ PrefabInstance:
     - target: {fileID: 6288686324133423005, guid: aed4827189b763f45b3fcd72e8fe152b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9155473775234816913, guid: aed4827189b763f45b3fcd72e8fe152b, type: 3}
+      propertyPath: m_TagString
+      value: StartPortal
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aed4827189b763f45b3fcd72e8fe152b, type: 3}

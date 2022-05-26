@@ -10,7 +10,16 @@ public class MainPlaceManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SetRankItem();
+    }
 
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+    void SetRankItem()
+    {
         SaveData loadData = SaveSystem.Load("save_001");
         Debug.Log("GetRankItem:  " + loadData.getRankItem);
 
@@ -23,7 +32,7 @@ public class MainPlaceManager : MonoBehaviour
         {
             GameObject.Find(loadData.Stage + "_g").transform.GetChild(0).gameObject.SetActive(false);  // 포탈 비활성화
             GameObject.Find(loadData.Stage + "_g").transform.GetChild(1).gameObject.SetActive(false);  // 기본 부품 비활성화
-            GameObject.Find(loadData.Stage + "_g").transform.GetChild((loadData.getRankItem)/2 + 1).gameObject.SetActive(true); // 등급아이템을 먹은 갯수에 따라 부품 활성화
+            GameObject.Find(loadData.Stage + "_g").transform.GetChild((loadData.getRankItem) / 2 + 1).gameObject.SetActive(true); // 등급아이템을 먹은 갯수에 따라 부품 활성화
 
             // 스테이지, 획득한 등급아이템 갯수 초기화
             SaveData savedata = new SaveData(null, loadData.ClearNum, 0, loadData.Tot_rank);
@@ -35,11 +44,5 @@ public class MainPlaceManager : MonoBehaviour
             MenuManager.Instance.OpenMenu("loading");
             PhotonNetwork.LoadLevel("EndScene");  // 엔딩 씬으로 이동
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }
