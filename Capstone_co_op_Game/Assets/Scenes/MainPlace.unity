@@ -3584,6 +3584,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3917368995474909035, guid: 056bc78bd410574468364b00b4f7bfe3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5155931753247886484, guid: 056bc78bd410574468364b00b4f7bfe3, type: 3}
       propertyPath: m_Name
       value: 1_GPU_Outside_Start_g
@@ -3630,6 +3634,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7177776432874321400, guid: 056bc78bd410574468364b00b4f7bfe3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7864669282361393964, guid: 056bc78bd410574468364b00b4f7bfe3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7864669283075262495, guid: 056bc78bd410574468364b00b4f7bfe3, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
