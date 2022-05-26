@@ -14,12 +14,12 @@
 <img width="100%" src="https://user-images.githubusercontent.com/31684326/170492010-2edd7fa6-4aa5-43ca-a45e-939efa7f17ca.png">   
 
 ### 설계  
-<img width="100%" src="https://user-images.githubusercontent.com/31684326/170507789-33a03f03-24b6-4238-9417-7ef539ac72ba.png">   
+<img width="80%" src="https://user-images.githubusercontent.com/31684326/170507789-33a03f03-24b6-4238-9417-7ef539ac72ba.png">   
 
 ### 테스트  
 <img width="100%" src="https://user-images.githubusercontent.com/31684326/170503325-2c9c4f3b-dafc-4541-a13a-63f71d657064.jpg">   
 
-
+<br>
 ## Title화면  
 <img width="80%" src="https://user-images.githubusercontent.com/31684326/170236001-ee510f02-f357-429a-8699-7160aa799af1.jpg">   
 
