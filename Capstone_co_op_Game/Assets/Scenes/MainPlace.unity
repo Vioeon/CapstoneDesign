@@ -532,7 +532,6 @@ GameObject:
   - component: {fileID: 412865854}
   - component: {fileID: 412865853}
   - component: {fileID: 412865852}
-  - component: {fileID: 412865851}
   - component: {fileID: 412865850}
   - component: {fileID: 412865856}
   m_Layer: 5
@@ -556,33 +555,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menus:
   - {fileID: 1461389751}
-  - {fileID: 1461389751}
-  - {fileID: 1461389751}
-  - {fileID: 1461389751}
-  - {fileID: 1461389751}
-  - {fileID: 1461389751}
---- !u!114 &412865851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 412865849}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65fc299740ca78941bf669415fb31aee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pv: {fileID: 0}
-  roomNameInputField: {fileID: 0}
-  nickNameInputField: {fileID: 0}
-  errorText: {fileID: 0}
-  roomNameText: {fileID: 0}
-  roomListContent: {fileID: 0}
-  roomListItemPrefab: {fileID: 1255822130980520512, guid: 0962a7d86b6abf943a721eff4fe9f0b8, type: 3}
-  playerListContent: {fileID: 0}
-  playerListItemPrefab: {fileID: 2333997007745058031, guid: b028e805bfa13da4d8a9b9de6569ce2d, type: 3}
-  startGameButton: {fileID: 0}
 --- !u!114 &412865852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3586,7 +3558,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3917368995474909035, guid: 056bc78bd410574468364b00b4f7bfe3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5155931753247886484, guid: 056bc78bd410574468364b00b4f7bfe3, type: 3}
       propertyPath: m_Name
@@ -3638,11 +3610,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7864669282361393964, guid: 056bc78bd410574468364b00b4f7bfe3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7864669283075262495, guid: 056bc78bd410574468364b00b4f7bfe3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112504671232829810, guid: 056bc78bd410574468364b00b4f7bfe3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 056bc78bd410574468364b00b4f7bfe3, type: 3}

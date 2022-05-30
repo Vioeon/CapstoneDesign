@@ -124,7 +124,7 @@ public class PlayerCtrl : MonoBehaviourPunCallbacks, IPunObservable
     }
 
 
-    private void OnCollisionEnter(Collision other)
+    /*private void OnCollisionEnter(Collision other)
     {
         if (!pv.IsMine)
         {
@@ -163,16 +163,16 @@ public class PlayerCtrl : MonoBehaviourPunCallbacks, IPunObservable
         {
             PhotonNetwork.Destroy(other.gameObject);  // 등급아이템 삭제
             MM.Power_rank++;
-        }*/
-    }
-
+        }
+    }*/
+    /*
     [PunRPC]
     void DestroyItem(GameObject obj)
     {
         if (!pv.IsMine)
             return;
         Destroy(obj);
-    }
+    }*/
 
     // 상태를 동기화 시켜주는 메소드
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)

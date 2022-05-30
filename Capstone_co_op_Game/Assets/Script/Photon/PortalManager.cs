@@ -13,6 +13,8 @@ public class PortalManager : MonoBehaviourPun
     {
         PV = photonView;
         MM = GameObject.Find("MapManager").GetComponent<MapManager>();
+
+        MM.playercount = 0;
     }
 
     // Update is called once per frame
